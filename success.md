@@ -10,7 +10,18 @@ use-site-title: false
 
 ## Introduction
 
-A movie producer comes to see us and says he wants to make a successful movie in a given genre and for a given geographical area, between USA, America, Africa, Europe, Asia or Oceania. He wants to find the best drivers that will make his movie a success, both financially by making substantial box office profits, and critically by getting good ratings and reviews. We decided to create an easy-to-use interface where the producer can select his genre and target market parameters and get feedback on the optimization of multiple parameters such as runtime, director profile, actor profiles, main language, and potentially plot and character persona elements in order to achieve his goal. 
+In a landscape where the art of filmmaking meets the science of market success, movie producers often find themselves at a crossroads. The goal is to create a cinematic experience that not only resonates with audiences emotionally by getting good ratings and reviews but also performs exceptionally at the box office. Achieving this dual triumph of critical acclaim and financial success is no small feat in the competitive terrain of the film industry.
+
+To aid producers in this challenge, we’ve crafted a cutting-edge tool, an interface that simplifies the complexity of movie-making variables. It empowers producers to fine-tune key elements that can elevate a film’s potential for success. By selecting a genre from the top-tier favorites, producers can explore a variety of influential factors, including:
+
+- Optimal Runtime: Finding the sweet spot for a film’s length to keep audiences engaged from opening credits to the final scene.
+- Directorial Vision: Aligning the project with directors whose previous works and stylistic flair have proven successful within the genre.
+- Casting Dynamics: Assembling a cast that not only has the right chemistry but also brings a proven track record to the table.
+- Narrative Appeal: Crafting story arcs and character developments that are known to captivate viewers within the chosen genre.
+- 
+This tool is more than just a repository of data; it’s an analytical engine that processes industry benchmarks, and audience preferences. It provides producers with a strategic knowledge, integrating both quantitative data and qualitative insights to guide decisions from pre-production to premiere.
+
+Our approach melds industry know-how with a predictive analytics model, offering strategic guidance rooted in a comprehensive understanding of what has historically succeeded. This is a new horizon in filmmaking—where informed decisions lead the way, and producers are equipped with the knowledge to create films that are not only seen and loved by many but also stand as testaments to the power of storytelling.
 
 ## General analysis 
 
