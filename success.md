@@ -18,12 +18,16 @@ To aid producers in this challenge, we’ve crafted a cutting-edge tool, an inte
 - Directorial Vision: Aligning the project with directors whose previous works and stylistic flair have proven successful within the genre.
 - Casting Dynamics: Assembling a cast that not only has the right chemistry but also brings a proven track record to the table.
 - Narrative Appeal: Crafting story arcs and character developments that are known to captivate viewers within the chosen genre.
-- 
+
+<div style="width: 100%;display: flex; justify-content: center;">
+  <img src="/assets/img/memeintrochoisi.jpeg" alt="Movie producer meme" style="width: 150px; height: 150px; border-radius: 10px;">
+</div>
+
 This tool is more than just a repository of data; it’s an analytical engine that processes industry benchmarks, and audience preferences. It provides producers with a strategic knowledge, integrating both quantitative data and qualitative insights to guide decisions from pre-production to premiere.
 
 Our approach melds industry know-how with a predictive analytics model, offering strategic guidance rooted in a comprehensive understanding of what has historically succeeded. This is a new horizon in filmmaking—where informed decisions lead the way, and producers are equipped with the knowledge to create films that are not only seen and loved by many but also stand as testaments to the power of storytelling.
 
-## General analysis 
+## What is the story behind the dataset at our disposal?
 
 ### How do rating and revenue vary as a function of the genre
 
