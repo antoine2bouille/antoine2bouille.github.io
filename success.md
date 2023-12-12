@@ -33,13 +33,6 @@ The distribution plots illustrate that movie ratings across genres tend to follo
 This plot shows histograms for movie runtime categorized by award status: Awarded Movies, Nominated Movies, and Non-awarded and Non-nominated Movies. Awarded movies tend to have a distribution centered around a lower runtime than nominated movies, suggesting that movies with shorter runtimes might have a higher chance of winning awards. Non-awarded and Non-nominated movies show a broad distribution, indicating a wide range of runtimes, with the majority leaning towards shorter runtimes. This category's histogram is significantly taller, suggesting it contains a much larger number of movies compared to the other two. A potential insight here could be that while both awarded and nominated movies tend to have a certain runtime, simply having a runtime within that range does not guarantee recognition.
 
 
-**Density function of movie profit**
-<div style="width: 100%;display: flex; justify-content: center;">
-  {% density_functions_of_movie_profit.html %}
-</div>
-
-The plot displays density functions for the profit of movies, also categorized by their award status. The x-axis is on a logarithmic scale, indicating a wide range of profits. We can see distinct peaks for each category. Awarded movies have the highest peak, followed by nominated movies, which suggests that, on average, awarded movies tend to be more profitable. Non-awarded and Non-nominated movies have a flatter distribution with a peak at a lower profit level, indicating that these movies, while varied, generally earn less than their awarded or nominated counterparts. The log scale indicates that there are movies with very high profits, but they are less frequent, as seen by the density curves approaching the tail end.
-
 
 ## Causal analysis of observational data 
 - Sensitivity analysis : nominated, oscar, rating --> profitability ?? 
