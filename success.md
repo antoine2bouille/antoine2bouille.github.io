@@ -47,9 +47,7 @@ This plot shows histograms for movie runtime categorized by award status: Awarde
 The plot displays density functions for the profit of movies, also categorized by their award status. The x-axis is on a logarithmic scale, indicating a wide range of profits. We can see distinct peaks for each category. Awarded movies have the highest peak, followed by nominated movies, which suggests that, on average, awarded movies tend to be more profitable. Non-awarded and Non-nominated movies have a flatter distribution with a peak at a lower profit level, indicating that these movies, while varied, generally earn less than their awarded or nominated counterparts. The log scale indicates that there are movies with very high profits, but they are less frequent, as seen by the density curves approaching the tail end.
 
 **Movie runtime for awarded movies and not awarded movies**
-<div style="width: 100%;display: flex; justify-content: center;">
-  {% movie_runtime_distribution_for_oscar_awarded_and_not_awarded_movies.html %}
-</div>
+
 This violin and box plot combination displays the distribution of movie runtimes, differentiating between movies that were not awarded and those that were. The 'Not Awarded' category has a wide and flat distribution, suggesting a high variability in runtimes, whereas the 'Awarded' category shows a more peaked and narrow distribution, implying a concentration around a specific runtime. The box plot within the violin plot for awarded movies shows a median value that is higher than the not awarded, which might imply that movies with longer runtimes tend to win awards, but the spread is less, suggesting a tighter criterion for runtime among awarded films. The notable number of outliers in the 'Not Awarded' category could indicate that there is less consistency in the success of movies with very short or very long runtimes in this group.
 
 ### What is the relation between being awarded and revenue?
