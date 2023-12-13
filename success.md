@@ -20,7 +20,9 @@ To aid producers in this challenge, we’ve crafted a cutting-edge tool, an inte
 - Narrative Appeal: Crafting story arcs and character developments that are known to captivate viewers within the chosen genre.
 
 <div style="width: 100%;display: flex; justify-content: center;">
+<a href = "https://www.imdb.com/title/tt6450804/">
   <img src="/assets/img/memeintrochoisi.jpeg" alt="Movie producer meme" style="width: 400px; height: 400px; border-radius: 10px;">
+</a>
 </div>
 
 This tool is more than just a repository of data; it’s an analytical engine that processes industry benchmarks, and audience preferences. It provides producers with a strategic knowledge, integrating both quantitative data and qualitative insights to guide decisions from pre-production to premiere.
