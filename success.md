@@ -42,7 +42,10 @@ The distribution plots illustrate that movie ratings across genres tend to follo
 
 **Distribution of movie runtime for all awarded movies**
 
-{% include distribution_of_movie_runtime_by_award_status.html %}
+
+<div style="width: 100%;display: flex; justify-content: center;">
+  {% include distribution_of_movie_runtime_by_award_status.html %}
+</div>
 This plot shows histograms for movie runtime categorized by award status: Awarded Movies, Nominated Movies, and Non-awarded and Non-nominated Movies. Awarded movies tend to have a distribution centered around a lower runtime than nominated movies, suggesting that movies with shorter runtimes might have a higher chance of winning awards. Non-awarded and Non-nominated movies show a broad distribution, indicating a wide range of runtimes, with the majority leaning towards shorter runtimes. This category's histogram is significantly taller, suggesting it contains a much larger number of movies compared to the other two. A potential insight here could be that while both awarded and nominated movies tend to have a certain runtime, simply having a runtime within that range does not guarantee recognition.
 
 **Density function of movie profit**
