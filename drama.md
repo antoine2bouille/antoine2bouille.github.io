@@ -39,6 +39,10 @@ Narratives in drama films frequently examine the complexities of family dynamics
 
 We harnessed the power of a machine learning algorithm to identify the most suitable profiles for the key roles in a drama genre film. Our analysis was grounded in a comprehensive dataset comprising successful movies within the same genre. To unveil the perfect casting choices for these four pivotal roles, click on the image below.
 
+<div style="width: 100%;display: flex; justify-content: center;">
+  <a href="/cast.html"><img src="/assets/img/casting.png" alt="cast" style="width:512px;height:512px;"></a>
+</div>
+
 ## Conclusion
 Summarize the key takeaways for filmmakers aspiring to create impactful drama movies, combining financial success with critical acclaim.
     
