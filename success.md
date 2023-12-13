@@ -127,7 +127,6 @@ Drama and family genres have lower median revenues but a wide range of outcomes,
 - Sensitivity analysis : nominated, oscar, rating --> profitability ?? 
 - Mettre des vilains graphes
 
-**BENOIT**
 
 
 
