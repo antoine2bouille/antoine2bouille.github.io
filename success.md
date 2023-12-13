@@ -36,7 +36,7 @@ Our approach melds industry know-how with a predictive analytics model, offering
   {% include distribution_of_movie_ratings_across_genres.html %}
 </div>
 
-The distribution plots illustrate that movie ratings across genres tend to follow a Gaussian or normal distribution, with most ratings clustering around the mean. Each genre shows a distinct peak, with 'Drama' having the most substantial number of movies. The spread of the distributions indicates the variability of ratings within each genre. We can see that Drama, Comedy, Thriller/Action, Romanc are the top genres in the world! 
+The distribution plots illustrate that movie ratings across genres tend to follow a Gaussian or normal distribution, with most ratings clustering around the mean. Each genre shows a distinct peak, with 'Drama' having the most substantial number of movies. The spread of the distributions indicates the variability of ratings within each genre. We can see that Drama, Comedy, Thriller/Action and Romance are the top genres in the world! 
 
 ### Which relation between the screentime and the opportunity to win an award?
 
