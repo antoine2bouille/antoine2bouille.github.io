@@ -25,7 +25,7 @@ To aid producers in this challenge, we’ve crafted a cutting-edge tool, an inte
 
 This tool is more than just a repository of data; it’s an analytical engine that processes industry benchmarks, and audience preferences. It provides producers with a strategic knowledge, integrating both quantitative data and qualitative insights to guide decisions from pre-production to premiere.
 
-Our approach melds industry know-how with a predictive analytics model, offering strategic guidance rooted in a comprehensive understanding of what has historically succeeded. This is a new horizon in filmmaking—where informed decisions lead the way, and producers are equipped with the knowledge to create films that are not only seen and loved by many but also stand as testaments to the power of storytelling.
+Our approach melds industry know-how with a predictive analytics model, offering strategic guidance rooted in a comprehensive understanding of what has historically succeeded. This is a new horizon in filmmaking—where informed decisions lead the way, and producers are equipped with the knowledge to create films that are not only seen and loved by many but also stand as testaments to the power of storytelling. 
 
 ## What is the story behind the dataset at our disposal?
 
@@ -36,7 +36,7 @@ Our approach melds industry know-how with a predictive analytics model, offering
   {% include distribution_of_movie_ratings_across_genres.html %}
 </div>
 
-The distribution plots illustrate that movie ratings across genres tend to follow a Gaussian or normal distribution, with most ratings clustering around the mean. Each genre shows a distinct peak, with 'Drama' having the most substantial number of movies followed by 'Other'. The spread of the distributions indicates the variability of ratings within each genre. The number of movies in each genre could also affect the shape of the distribution, with genres having more movies showing a more defined Gaussian shape.
+The distribution plots illustrate that movie ratings across genres tend to follow a Gaussian or normal distribution, with most ratings clustering around the mean. Each genre shows a distinct peak, with 'Drama' having the most substantial number of movies. The spread of the distributions indicates the variability of ratings within each genre. We can see that Drama, Comedy, Thriller/Action, Romanc are the top genres in the world! 
 
 ### Which relation between the screentime and the opportunity to win an award?
 
