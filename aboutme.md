@@ -3,6 +3,9 @@ layout: page
 title: About us
 subtitle: Why you'd want to go drink some beers with us
 ---
+<div style="width: 100%;display: flex; justify-content: center;">
+  <img src="/assets/img/data_scientist.png" alt="Data scientist spiderman meme" style="width: 639px; height: 347px; border-radius: 20px;">
+</div> 
 
 Our team is called BAVMA Research. Why this name? Simply an acronyme of our names.
 
