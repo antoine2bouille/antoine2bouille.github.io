@@ -49,6 +49,13 @@ body {
     border-style: solid;
     border-color: transparent transparent rgba(136, 19, 5, 0.75) transparent;
 }
+
+#backLink {
+    position: fixed; /* Fixed position */
+    bottom: 10px;    /* Distance from bottom */
+    right: 10px;     /* Distance from right */
+    z-index: 1000;   /* Ensure it's on top */
+}
 </style>
 
 </head>
@@ -58,5 +65,8 @@ body {
 </div>
 <!-- Load application code at the end to ensure DOM is loaded -->
 <script src="code.js"></script>
+<a href="/drama" id="backLink">
+    <img src="/assets/img/go_back.png" alt="Back">
+</a>
 </body>
 </html>
