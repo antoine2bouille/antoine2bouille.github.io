@@ -26,7 +26,7 @@ var cy = cytoscape({
       })
     .selector('#genre')
       .css({
-        'background-image': 'images/drama_mask.jpeg',
+        'background-image': '/assets/img/drama_mask.jpeg',
         
       })
     .selector('#role_1')
@@ -44,7 +44,7 @@ var cy = cytoscape({
       })
   .selector('#role_4')
       .css({
-        'background-image': 'images/four.png'
+        'background-image': '/assets/img/four.png'
       })
   .selector('#actor_1')
       .css({
@@ -88,7 +88,7 @@ var cy = cytoscape({
       })
   .selector('#actor_11')
       .css({
-        'background-image': 'images/holland.jpeg'
+        'background-image': '/assets/img/holland.jpeg'
       })
   .selector('#actor_12')
       .css({
