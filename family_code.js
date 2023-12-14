@@ -26,7 +26,7 @@ var cy = cytoscape({
       })
     .selector('#genre')
       .css({
-        'background-image': '/assets/img/drama_mask.jpeg',
+        'background-image': '/assets/img/family_logo.png',
         
       })
     .selector('#role_1')
