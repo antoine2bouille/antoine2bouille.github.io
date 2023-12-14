@@ -3,8 +3,8 @@ layout: page
 title: Science-fiction movies
 subtitle: What are the main drivers to a successfull science-fiction movie ? 
 cover-img: /assets/img/movies.jpeg
-thumbnail-img: /assets/img/movies.jpeg
-share-img: /assets/img/movies.jpeg
+thumbnail-img: /assets/img/sf_background.jpg
+share-img: /assets/img/sf_background.jpg
 use-site-title: false
 ---
 
