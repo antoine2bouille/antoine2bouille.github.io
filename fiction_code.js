@@ -12,7 +12,7 @@ var cy = cytoscape({
         'height': 80,
         'width': 80,
         'background-fit': 'cover',
-        'border-color': '#A32303',
+        'border-color': '#17029F',
         'border-width': 6,
         'border-opacity': 1
       })
@@ -21,12 +21,12 @@ var cy = cytoscape({
         'curve-style': 'bezier',
         'width': 9,
         'target-arrow-shape': 'triangle',
-        'line-color': '#CF9E11',
-        'target-arrow-color': '#CF9E11'
+        'line-color': '#05F045',
+        'target-arrow-color': '#05F045'
       })
     .selector('#genre')
       .css({
-        'background-image': '/assets/img/drama_mask.jpeg',
+        'background-image': '/assets/img/sf_logo.jpeg',
         
       })
     .selector('#role_1')
