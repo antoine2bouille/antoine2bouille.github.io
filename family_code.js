@@ -12,7 +12,7 @@ var cy = cytoscape({
         'height': 80,
         'width': 80,
         'background-fit': 'cover',
-        'border-color': '#A32303',
+        'border-color': '#13E2DC',
         'border-width': 6,
         'border-opacity': 1
       })
