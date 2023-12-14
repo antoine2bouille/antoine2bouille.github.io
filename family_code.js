@@ -24,7 +24,7 @@ var cy = cytoscape({
         'line-color': '#CF9E11',
         'target-arrow-color': '#CF9E11'
       })
-    .selector('#genre')
+    .selector('#Family')
       .css({
         'background-image': '/assets/img/family_logo.png',
         
@@ -99,7 +99,7 @@ var cy = cytoscape({
   elements: {
     nodes: [
       
-      { data: { id: 'genre' } },
+      { data: { id: 'Family' } },
       { data: { id: 'role_1' } },
       { data: { id: 'role_2' } },
       { data: { id: 'role_3' } },
@@ -119,10 +119,10 @@ var cy = cytoscape({
     ],
     edges: [
       
-      { data: { source: 'genre', target: 'role_1' } },
-      { data: { source: 'genre', target: 'role_2' } },
-      { data: { source: 'genre', target: 'role_3' } },
-      { data: { source: 'genre', target: 'role_4' } },
+      { data: { source: 'Family', target: 'role_1' } },
+      { data: { source: 'Family', target: 'role_2' } },
+      { data: { source: 'Family', target: 'role_3' } },
+      { data: { source: 'Family', target: 'role_4' } },
       { data: { source: 'role_1', target: 'actor_1' } },
       { data: { source: 'role_1', target: 'actor_2' } },
       { data: { source: 'role_1', target: 'actor_3' } },
@@ -159,7 +159,7 @@ actorNodes.forEach(function(actorId) {
   });
 });
 
-cy.elements('node[id != "genre"]').style({
+cy.elements('node[id != "Family"]').style({
   'display': 'none',
   'opacity': 0,
   'width': 0,
@@ -188,9 +188,9 @@ function showConnectedNodes(nodeId) {
   node.connectedEdges().style('display', 'element');
 }
 
-// Click event on 'genre' node to show 'role' nodes
-cy.getElementById('genre').on('click', function() {
-  showConnectedNodes('genre');
+// Click event on 'Family' node to show 'role' nodes
+cy.getElementById('Family').on('click', function() {
+  showConnectedNodes('Family');
 });
 
 // Click events on 'role' nodes to show connected nodes
