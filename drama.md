@@ -37,11 +37,12 @@ Narratives in drama films frequently examine the complexities of family dynamics
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include map_Drama.html %}
 </div>
+
+k
+## Basic graphs
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include maplangue_Drama.html %}
 </div>
-
-## Basic graphs
 
 ## Optimized casting
 
