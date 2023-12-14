@@ -130,6 +130,7 @@ Drama and family genres have lower median revenues but a wide range of outcomes,
 - Mettre des vilains graphes
 
 
+### How does the profitability of movies vary across genres
 
 
 ## Exploring main genres 
