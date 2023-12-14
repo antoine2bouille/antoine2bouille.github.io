@@ -37,7 +37,32 @@ Family films are centered on heartwarming stories that emphasize familial relati
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include maplangue_Family.html %}
 </div>
+The use of a CatBoost machine learning model is useful to discover what factors contribute to a film's success. The model is trained to understand the impact of various features like language and country of release on a movie's performance. Once trained, the model's feature importance reveals that certain languages and countries are more predictive of success.
 
+The visualizations you see are a direct result of this analysis. The world map colors certain countries to signify their importance, while the bar chart ranks languages by their influence on movie success, as determined by the model. These insights are pivotal for strategic decisions in the film industry, such as choosing a language for a movie or selecting a country for release, to maximize the chances of a film's success.
+
+Machine learning, and specifically the use of CatBoost here, is crucial because it can handle complex datasets with multiple categorical variables. It provides a systematic approach to sifting through data, identifying patterns, and quantifying their significance, which is essential in the nuanced field of movie analytics. The result is a data-driven strategy for enhancing movie success, grounded in the quantitative analysis provided by machine learning
+
+<div>
+    <table style="width:50%; border: 1px solid black; border-collapse: collapse;">
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black; padding: 8px;">Metric</th>
+            <th style="border: 1px solid black; padding: 8px;">Value</th>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black; padding: 8px;">MSE (Mean Squared Error)</td>
+            <td style="border: 1px solid black; padding: 8px;">0.14802529670511808</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black; padding: 8px;">RMSE (Root Mean Squared Error)</td>
+            <td style="border: 1px solid black; padding: 8px;">0.3847405576555688</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black; padding: 8px;">R² (R-squared)</td>
+            <td style="border: 1px solid black; padding: 8px;">-0.015524673193787475</td>
+        </tr>
+    </table>
+</div>
 ## Basic graphs
 
 ## Optimized casting
