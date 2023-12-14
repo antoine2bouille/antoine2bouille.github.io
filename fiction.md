@@ -2,9 +2,9 @@
 layout: page
 title: Science-fiction movies
 subtitle: What are the main drivers to a successfull science-fiction movie ? 
-cover-img: /assets/img/movies.jpeg
-thumbnail-img: /assets/img/movies.jpeg
-share-img: /assets/img/movies.jpeg
+cover-img: /assets/img/sf_background.jpg
+thumbnail-img: /assets/img/sf_background.jpg
+share-img: /assets/img/sf_background.jpg
 use-site-title: false
 ---
 
@@ -38,7 +38,13 @@ Futuristic environments and superior technologies drive inventive storytelling i
 </div>
 ## Basic graphs
 
-## Vilaines analyses
+## Optimized casting
+
+We harnessed the power of a machine learning algorithm to identify the most suitable profiles for the key roles in a fiction genre film. Our analysis was grounded in a comprehensive dataset comprising successful movies within the same genre. To unveil the perfect casting choices for these four pivotal roles, click on the image below.
+
+<div style="width: 100%;display: flex; justify-content: center;">
+  <a href="/fiction_cast.html"><img src="/assets/img/casting.png" alt="cast" style="width:512px;height:512px;border-radius: 30px;"></a>
+</div>
 
 ## Conclusion
 
