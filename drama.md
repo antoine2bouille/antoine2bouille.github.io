@@ -38,11 +38,11 @@ rkvormwl vle vlkerw v
   {% include map_Drama.html %}
 </div>
 
-k
-## Basic graphs
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include maplangue_Drama.html %}
 </div>
+
+## Basic graphs
 
 ## Optimized casting
 
