@@ -33,8 +33,10 @@ Narratives in drama films frequently examine the complexities of family dynamics
 
 ## Regressions
 ## Interactive World Map
-v
-<iframe src="/_includes/mapdrama.html" width="700" height="500" frameBorder="0"></iframe>
+
+<div style="width: 100%;display: flex; justify-content: center;">
+  {% include mapdrama.html %}
+</div>
 
 ## Basic graphs
 
