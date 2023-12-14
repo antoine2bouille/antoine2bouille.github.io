@@ -27,7 +27,13 @@ Brief overview of the horror and its significance in the film industry.
 Horror films convey scary stories that emphasize negative emotions, death, and uncomfortable events. Families and children are frequently threatened by lethal threats in haunted locations, where murders and crimes heighten the suspense. Eerie changes of weddings, parties, and celebrations instill fear into otherwise happy gatherings. Supernatural warfare, brutality, and horrific things heighten the dread, while weaponry and fights heighten the tension. Suffering, torture, and anguish serve as disturbing settings for this exploration of the worst aspects of human existence. Themes of youth, divine intervention, healing, and pain lend complexity to horror films, producing a mesmerizing tapestry of terror and interest.
 
 ## Regressions
+<div style="width: 100%;display: flex; justify-content: center;">
+  {% include map_Horror.html %}
+</div>
 
+<div style="width: 100%;display: flex; justify-content: center;">
+  {% include maplangue_Horror.html %}
+</div>
 ## Basic graphs
 
 ## Vilaines analyses

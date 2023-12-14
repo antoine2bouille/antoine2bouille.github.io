@@ -30,7 +30,12 @@ Futuristic environments and superior technologies drive inventive storytelling i
 
 
 ## Regressions
-
+<div style="width: 100%;display: flex; justify-content: center;">
+  {% include map_Fiction.html %}
+</div>
+<div style="width: 100%;display: flex; justify-content: center;">
+  {% include maplangue_Fiction.html %}
+</div>
 ## Basic graphs
 
 ## Vilaines analyses

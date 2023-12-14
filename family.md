@@ -31,6 +31,12 @@ Brief overview of the family and its significance in the film industry.
 Family films are centered on heartwarming stories that emphasize familial relationships. Plots center on the joys and tribulations of family life, with a particular emphasis on children. Weddings, homes, and happy feelings are among the themes used to create an upbeat mood. Friendship, celebrations, and optimism are important themes, while musical components offer entertainment value. These films strike a balance between relatable experiences like school and youth with positive values like helping, giving, and leadership. Despite occasional setbacks, Family films promote unity and the continuing strength of familial bonds, providing wholesome and entertaining experiences for people of all ages.
 
 ## Regressions
+<div style="width: 100%;display: flex; justify-content: center;">
+  {% include map_Family.html %}
+</div>
+<div style="width: 100%;display: flex; justify-content: center;">
+  {% include maplangue_Family.html %}
+</div>
 
 ## Basic graphs
 
