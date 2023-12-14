@@ -32,6 +32,9 @@ Narratives in drama films frequently examine the complexities of family dynamics
 
 
 ## Regressions
+## Interactive World Map
+
+<iframe src="/_includes/mapdrama.html" width="700" height="500" frameBorder="0"></iframe>
 
 ## Basic graphs
 
@@ -42,6 +45,8 @@ We harnessed the power of a machine learning algorithm to identify the most suit
 <div style="width: 100%;display: flex; justify-content: center;">
   <a href="/cast.html"><img src="/assets/img/casting.png" alt="cast" style="width:512px;height:512px;border-radius: 30px;"></a>
 </div>
+
+
 
 ## Conclusion
 Summarize the key takeaways for filmmakers aspiring to create impactful drama movies, combining financial success with critical acclaim.
