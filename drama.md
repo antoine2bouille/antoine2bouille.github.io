@@ -10,10 +10,9 @@ use-site-title: false
   
 
 # Drama movies
-Brief overview of the Drama and its significance in the film industry.
 
 ## Overview
-Brief overview of the Drama and its significance in the film industry.
+Drama is a type of narrative fiction or non-fiction that emphasizes tension between characters, conflict and emotion. Drama is a popular and adaptable genre in the film industry, presenting a wide variety of stories and subjects. If DiCaprio's death in Titanic stirred your emotions too, then browse this page to find out more about what lies behind these emotionally-charged films!
 
 
 ## Research questions
