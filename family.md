@@ -10,11 +10,10 @@ use-site-title: false
 
   
 
-Brief overview of the family and its significance in the film industry.
-
 ## Overview
 
-
+The family genre in cinema offers a diverse palette of stories that focus on family relationships, values and experiences. These films explore the emotional entanglements within families, creating narratives rich in nuance. 
+Do you want to find out what's behind your childhood favorites movies? Don't wait any longer, curious youngster, read this page, it's made for you!
 
 ## Research questions
 
