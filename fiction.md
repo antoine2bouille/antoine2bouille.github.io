@@ -55,8 +55,9 @@ Machine learning, and specifically the use of CatBoost here, is crucial because 
         </tr>
     </table>
 </div>
-<div>
-    <table style="width:50%; border: 1px solid black; border-collapse: collapse;">
+We harnessed the power of linear regression in order to find the optimal runtime.
+<div style="width:50%; margin-left: auto; margin-right: auto;">
+    <table style="width:100%; border: 1px solid black; border-collapse: collapse;">
         <tr style="border: 1px solid black;">
             <th style="border: 1px solid black; padding: 8px;">Optimal Runtime</th>
             <th style="border: 1px solid black; padding: 8px;">118.00 minutes</th>
