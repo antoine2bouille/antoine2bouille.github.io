@@ -3,21 +3,34 @@ layout: base
 ---
 
 {% include header.html type="page" %}
+{% if page.full-width-section %}
+<div class="container-fluid">
+  {{ page.full-width-section | markdownify }}
+</div>
+{% endif %}
 
-<main>
-    {% if page.full-width-header %}
-    <div class="container-fluid">
-      <!-- Content that will take the full width of the page -->
-      {{ page.full-width-header | markdownify }}
-    </div>
-    {% endif %}
-  
-    <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
-      <div class="row">
-        <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
-          <!-- Rest of the content that follows the original layout -->
-          {{ content }}
+<main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  <div class="row">
+    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+      {% if page.before-content %}
+        <div class="before-content">
+          {% for file in page.before-content %}
+            {% include {{ file }} %}
+          {% endfor %}
         </div>
-      </div>
+      {% endif %}
+
+      {{ content }}
+
+      {% if page.after-content %}
+        <div class="after-content">
+          {% for file in page.after-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% include comments.html %}
     </div>
-  </main>
+  </div>
+</main>
