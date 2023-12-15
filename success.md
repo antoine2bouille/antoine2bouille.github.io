@@ -96,10 +96,18 @@ This scatter plot shows the relationship between movie runtime and profit, with 
 ### What is the relationship between ratings and profit?
 
 <div style="width: 100%;display: flex; justify-content: center;">
+<a href = "https://www.imdb.com/title/tt0468569/">
+  <img src="/assets/img/never_do_it_for_free.jpg" alt="Movie producer meme" style="width: 400px; height: 400px; border-radius: 10px;">
+</a>
+</div>
+
+<div style="width: 100%;display: flex; justify-content: center;">
   {% include movie_rating_vs_profit_scatter.html %}
 </div>
 
 This scatter plot displays movie profits against their average ratings, with movies differentiated by whether they were awarded or not. There is a dense clustering of movies in the lower profit range across all ratings, with fewer movies achieving high profits. This suggests that while many films are made and rated, only a few reach high profitability. Awarded movies (blue points) are present across a wide range of profits, but with a noticeable presence in the higher profit tiers, indicating that award-winning films may have a better chance at earning more. The vertical spread of points at each rating level indicates a large variability in profit for movies with similar ratings, suggesting that factors other than ratings significantly influence profitability.
+
+
 
 ### How does the movie rating distribution vary across the continents?
 
