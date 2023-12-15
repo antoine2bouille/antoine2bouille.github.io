@@ -8,11 +8,13 @@ share-img: /assets/img/sf_background.jpg
 use-site-title: false
 ---
 
-  
 
-Brief overview of the fiction and its significance in the film industry.
 
 ## Overview
+
+Science fiction films occupy a significant and distinctive place in the film industry. They are distinguished by their ability to explore futuristic concepts, imaginary worlds and technological advances, offering viewers an escape into alternative realities. Science fiction films provoke reflection on the ethical, social and scientific implications of the future, often extrapolating contemporary challenges into futuristic scenarios. 
+
+If you want to write the screenplay for the next Matrix, browse this page to gather as many ingredients as possible for a masterpiece!
 
 ## Common words and themes in movie plots
 ![SF Wordcloud](/assets/img/wordclouds/empath/Fiction_wordcloud.png)
