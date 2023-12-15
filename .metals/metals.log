@@ -3,3 +3,5 @@
 2023.12.15 07:35:14 WARN  no build tool detected in workspace '/Users/benoitgallois/Desktop/antoine2bouille.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 déc. 15, 2023 8:01:35 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFOS: Unsupported notification method: $/setTrace
+déc. 15, 2023 8:25:28 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
