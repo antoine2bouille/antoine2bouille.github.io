@@ -2,9 +2,9 @@
 layout: page
 title: Action and adventure movies
 subtitle: What are the main drivers to a successfull action and adventure movie ? 
-cover-img: /assets/img/movies.jpeg
-thumbnail-img: /assets/img/movies.jpeg
-share-img: /assets/img/movies.jpeg
+cover-img: /assets/img/action_banner.jpg
+thumbnail-img: /assets/img/action_banner.jpg
+share-img: /assets/img/action_banner.jpg
 use-site-title: false
 ---
 
