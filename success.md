@@ -50,13 +50,6 @@ The distribution plots illustrate that movie ratings across genres tend to follo
 </div>
 This plot shows histograms for movie runtime categorized by award status: Awarded Movies, Nominated Movies, and Non-awarded and Non-nominated Movies. Awarded movies tend to have a distribution centered around a lower runtime than nominated movies, suggesting that movies with shorter runtimes might have a higher chance of winning awards. Non-awarded and Non-nominated movies show a broad distribution, indicating a wide range of runtimes, with the majority leaning towards shorter runtimes. This category's histogram is significantly taller, suggesting it contains a much larger number of movies compared to the other two. A potential insight here could be that while both awarded and nominated movies tend to have a certain runtime, simply having a runtime within that range does not guarantee recognition.
 
-**Density function of movie profit**
-<div style="width: 100%;display: flex; justify-content: center;">
-  {% include density_functions_of_movie_profit.html %}
-</div>
-
-The plot displays density functions for the profit of movies, also categorized by their award status. The x-axis is on a logarithmic scale, indicating a wide range of profits. We can see distinct peaks for each category. Awarded movies have the highest peak, followed by nominated movies, which suggests that, on average, awarded movies tend to be more profitable. Non-awarded and Non-nominated movies have a flatter distribution with a peak at a lower profit level, indicating that these movies, while varied, generally earn less than their awarded or nominated counterparts. The log scale indicates that there are movies with very high profits, but they are less frequent, as seen by the density curves approaching the tail end.
-
 **Movie runtime for awarded movies and not awarded movies**
 
 This violin and box plot combination displays the distribution of movie runtimes, differentiating between movies that were not awarded and those that were. The 'Not Awarded' category has a wide and flat distribution, suggesting a high variability in runtimes, whereas the 'Awarded' category shows a more peaked and narrow distribution, implying a concentration around a specific runtime. The box plot within the violin plot for awarded movies shows a median value that is higher than the not awarded, which might imply that movies with longer runtimes tend to win awards, but the spread is less, suggesting a tighter criterion for runtime among awarded films. The notable number of outliers in the 'Not Awarded' category could indicate that there is less consistency in the success of movies with very short or very long runtimes in this group.
@@ -77,13 +70,13 @@ This graph shows the frequency distribution of movie box office revenue on a log
 
 Similar to the box office revenue graph, this shows the frequency distribution of movie profits, also on a logarithmic scale. This distribution appears to be more centrally peaked, suggesting that while there are outliers with extremely high profits, there's a common profit range where most movies lie. The tail of the distribution extending towards higher profits is less steep compared to the box office revenue graph, indicating that while fewer movies make extremely high profits, the drop-off is not as sharp. This information could be valuable for movie producers and investors to gauge expected profits and understand the profitability landscape of the film industry.
 
-**Density function of Movie profit**
-
+**Density function of movie profit**
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include density_functions_of_movie_profit.html %}
 </div>
 
-This graph presents density functions for movie profits, categorized by award status (Awarded, Nominated, and Non-awarded and Non-nominated). The density functions help visualize the probability distribution of profits within each category. It appears that awarded movies have a higher probability density for higher profits, while non-awarded and non-nominated movies have a higher density at lower profits. The area under each curve represents the probability of a movie in that category falling within a certain profit range. This visualization can be particularly helpful in understanding how award status might correlate with financial success.
+The plot displays density functions for the profit of movies, also categorized by their award status. The x-axis is on a logarithmic scale, indicating a wide range of profits. We can see distinct peaks for each category. Awarded movies have the highest peak, followed by nominated movies, which suggests that, on average, awarded movies tend to be more profitable. Non-awarded and Non-nominated movies have a flatter distribution with a peak at a lower profit level, indicating that these movies, while varied, generally earn less than their awarded or nominated counterparts. The log scale indicates that there are movies with very high profits, but they are less frequent, as seen by the density curves approaching the tail end.
+
 
 **Scatterplot of movie runtime vs profit**
 
@@ -115,7 +108,7 @@ This set of histograms shows the distribution of movie ratings across different 
   {% include Distribution_inflated_movies.html %}
 </div>
 
-This collection of plots illustrates the profit distribution of movies across different continents, displayed on a logarithmic scale. There is a noticeable decline in frequency as profit increases, which is consistent across continents, suggesting that high-profit movies are rare globally. In some continents like Africa, there is a steep drop-off in the number of high-profit movies, whereas in Asia, Europe, and the USA, the drop-off is more gradual, indicating a presence of more movies that achieve high profits. This analysis helps in comparing the film industry's financial success across different markets and can guide decisions regarding distribution and marketing strategies
+This collection of plots illustrates the profit distribution of movies across different continents, displayed on a logarithmic scale. There is a noticeable decline in frequency as profit increases, which is consistent across continents, suggesting that high-profit movies are rare globally. In some continents like Africa, there is a steep drop-off in the number of high-profit movies, whereas in Oceania, Europe, and the USA, the drop-off is more gradual, indicating a presence of more movies that achieve high profits. This analysis helps in comparing the film industry's financial success across different markets and can guide decisions regarding distribution and marketing strategies
 
 ### How does the profitability of movies vary across genres
 <div style="width: 100%;display: flex; justify-content: center;">
@@ -133,9 +126,17 @@ Drama and family genres have lower median revenues but a wide range of outcomes,
 ### How does the profitability of movies vary across genres
 
 
-## Exploring main genres 
+## Exploring main genres through research questions 
 
-**For each genre we explore different questions**
+If you want to answer these questions:
+
+- Which genre is more represented according to a location? Which genre performs better according to a location?
+- How do rating and revenue vary as a function of the genre?
+- What is the relationship between ratings and revenues?
+- What is the optimal runtime for each genre?
+- Which relation between the screen time and the opportunity to win an award ?
+
+Click on the icon of the genre you're interested in!
 
 <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 20px;">
 
