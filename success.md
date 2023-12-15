@@ -2,9 +2,9 @@
 layout: page
 title: How to achieve glory and success as a filmmaker 
 subtitle: A guide to make the best movies according to a given genre target
-cover-img: /assets/img/movies.jpeg
-thumbnail-img: /assets/img/movies.jpeg
-share-img: /assets/img/movies.jpeg
+cover-img: /assets/img/characters_background.jpeg
+thumbnail-img: /assets/img/characters_background.jpeg
+share-img: /assets/img/characters_background.jpeg
 use-site-title: false
 ---
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%;">
