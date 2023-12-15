@@ -15,15 +15,6 @@ use-site-title: false
 The family genre in cinema offers a diverse palette of stories that focus on family relationships, values and experiences. These films explore the emotional entanglements within families, creating narratives rich in nuance. 
 Do you want to find out what's behind your childhood favorites movies? Don't wait any longer, curious youngster, read this page, it's made for you!
 
-## Research questions
-
-- Which genre is more represented according to a location? Which genre performs better according to a location?
-- How do rating and revenue vary as a function of the genre?
-- What is the relationship between ratings and revenues?
-- What is the optimal runtime for each genre?
-- Which relation between the screen time and the opportunity to win an award ?
-- XXX
-
 ## Common words and themes in movie plots
 ![Family Wordcloud](/assets/img/wordclouds/empath/Family_wordcloud.png)
 
