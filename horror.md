@@ -8,10 +8,11 @@ share-img: /assets/img/movies.jpeg
 use-site-title: false
 ---
 
-Brief overview of the horror and its significance in the film industry.
-
 ## Overview
 
+Horror films offer a unique experience centered on the exploration of suspense, fear and the occult. They have the ability to immerse viewers in anguished worlds and provoke intense emotions, ranging from terror to excitement. 
+
+Are you terrified and fascinated by The Exorcist too? Read this page to find out how to make his number 2 and win an Oscar!
 
 ## Common words and themes in movie plots
 ![horror Wordcloud](/assets/img/wordclouds/empath/Horror_wordcloud.png)
