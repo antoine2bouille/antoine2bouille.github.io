@@ -14,15 +14,6 @@ Brief overview of the fiction and its significance in the film industry.
 
 ## Overview
 
-## Research questions
-
-- Which genre is more represented according to a location? Which genre performs better according to a location?
-- How do rating and revenue vary as a function of the genre?
-- What is the relationship between ratings and revenues?
-- What is the optimal runtime for each genre?
-- Which relation between the screen time and the opportunity to win an award ?
-- XXX
-
 ## Common words and themes in movie plots
 ![SF Wordcloud](/assets/img/wordclouds/empath/Fiction_wordcloud.png)
 
@@ -41,8 +32,9 @@ The use of a CatBoost machine learning model is useful to discover what factors 
 The visualizations you see are a direct result of this analysis. The world map colors certain countries to signify their importance, while the bar chart ranks languages by their influence on movie success, as determined by the model. These insights are pivotal for strategic decisions in the film industry, such as choosing a language for a movie or selecting a country for release, to maximize the chances of a film's success.
 
 Machine learning, and specifically the use of CatBoost here, is crucial because it can handle complex datasets with multiple categorical variables. It provides a systematic approach to sifting through data, identifying patterns, and quantifying their significance, which is essential in the nuanced field of movie analytics. The result is a data-driven strategy for enhancing movie success, grounded in the quantitative analysis provided by machine learning
-<div>
-    <table style="width:50%; border: 1px solid black; border-collapse: collapse;">
+
+<div style="margin:auto; width:50%;">
+    <table style="width:100%; border: 1px solid black; border-collapse: collapse;">
         <tr style="border: 1px solid black;">
             <th style="border: 1px solid black; padding: 8px;">Metric</th>
             <th style="border: 1px solid black; padding: 8px;">Value</th>
