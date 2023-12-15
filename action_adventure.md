@@ -7,12 +7,11 @@ thumbnail-img: /assets/img/movies.jpeg
 share-img: /assets/img/movies.jpeg
 use-site-title: false
 ---
-Brief overview of the Action and its significance in the film industry.
 
 ## Overview
 
-
-
+These films immerse viewers in stressful worlds where danger constantly lurks around the main characters. Their aim is to take us on a journey and put us in the shoes of a hero or heroine ready to do anything to fulfill his or her mission.
+If you too dream of stepping into the shoes of Indiana Jones or James Bond, then don't wait any longer and browse through this captivating page that will explain all the mysteries of action and adventure films!
 
 ## Common words and themes in movie plots
 
