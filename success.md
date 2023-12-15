@@ -1,14 +1,14 @@
 ---
-layout: page_updated
+layout: page
 title: How to achieve glory and success as a filmmaker 
 subtitle: A guide to make the best movies according to a given genre target
 cover-img: /assets/img/characters_background.jpeg
 thumbnail-img: /assets/img/characters_background.jpeg
 share-img: /assets/img/characters_background.jpeg
 use-site-title: false
-full-width-header: |
-  <div style="display: flex; justify-content: space-between; align-items: baseline; width: 100%; padding: 0 10px; box-sizing: border-box;">
-    <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%;">
+
+---
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%;">
   <a href="/drama" style="flex: 1;">
     <img src="/assets/img/drama.jpg.webp" alt="Drama" style="width: 100%; height: auto; border-radius: 10px;">
     <p style="margin: 10px 0; font-weight: bold; text-align: center;">Drama</p>
@@ -34,9 +34,6 @@ full-width-header: |
     <p style="margin: 10px 0; font-weight: bold; text-align: center;">Horror</p>
   </a>
 </div>
-  </div>
----
-
 
 
 
