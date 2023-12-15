@@ -61,6 +61,14 @@ Machine learning, and specifically the use of CatBoost here, is crucial because 
         </tr>
     </table>
 </div>
+<div>
+    <table style="width:50%; border: 1px solid black; border-collapse: collapse;">
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black; padding: 8px;">Optimal Runtime</th>
+            <th style="border: 1px solid black; padding: 8px;">118.00 minutes</th>
+        </tr>
+    </table>
+</div>
 ## Basic graphs
 
 ## Optimized casting
