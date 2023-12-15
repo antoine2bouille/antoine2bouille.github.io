@@ -15,15 +15,6 @@ use-site-title: false
 Drama is a type of narrative fiction or non-fiction that emphasizes tension between characters, conflict and emotion. Drama is a popular and adaptable genre in the film industry, presenting a wide variety of stories and subjects. If DiCaprio's death in Titanic stirred your emotions too, then browse this page to find out more about what lies behind these emotionally-charged films!
 
 
-## Research questions
-
-- Which genre is more represented according to a location? Which genre performs better according to a location?
-- How do rating and revenue vary as a function of the genre?
-- What is the relationship between ratings and revenues?
-- What is the optimal runtime for each genre?
-- Which relation between the screen time and the opportunity to win an award ?
-- XXX
-
 ## Common words and themes in movie plots
 ![Drama Wordcloud](/assets/img/wordclouds/empath/Drama_wordcloud.png)
 

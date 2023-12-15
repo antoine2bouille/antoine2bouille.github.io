@@ -126,9 +126,17 @@ Drama and family genres have lower median revenues but a wide range of outcomes,
 ### How does the profitability of movies vary across genres
 
 
-## Exploring main genres 
+## Exploring main genres through research questions 
 
-**For each genre we explore different questions**
+If you want to answer these questions:
+
+- Which genre is more represented according to a location? Which genre performs better according to a location?
+- How do rating and revenue vary as a function of the genre?
+- What is the relationship between ratings and revenues?
+- What is the optimal runtime for each genre?
+- Which relation between the screen time and the opportunity to win an award ?
+
+Click on the icon of the genre you're interested in!
 
 <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 20px;">
 
