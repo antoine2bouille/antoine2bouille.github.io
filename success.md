@@ -95,7 +95,7 @@ This scatter plot shows the relationship between movie runtime and profit, with 
 
 ### What is the relationship between ratings and profit?
 
-<div style="width: 100%;display: flex; justify-content: center;">
+<div style="width: 100%;display: flex; justify-content: center;margin-top: 30px;">
 <a href = "https://www.imdb.com/title/tt0468569/">
   <img src="/assets/img/never_do_it_for_free.jpg" alt="Movie producer meme" style="width: 716px; height: 343px; border-radius: 10px;">
 </a>
