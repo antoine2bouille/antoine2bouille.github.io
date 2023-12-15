@@ -97,7 +97,7 @@ This scatter plot shows the relationship between movie runtime and profit, with 
 
 <div style="width: 100%;display: flex; justify-content: center;">
 <a href = "https://www.imdb.com/title/tt0468569/">
-  <img src="/assets/img/never_do_it_for_free.jpg" alt="Movie producer meme" style="width: 400px; height: 400px; border-radius: 10px;">
+  <img src="/assets/img/never_do_it_for_free.jpg" alt="Movie producer meme" style="width: 1024px; height: 490px; border-radius: 10px;">
 </a>
 </div>
 
