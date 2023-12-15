@@ -7,41 +7,31 @@ thumbnail-img: /assets/img/characters_background.jpeg
 share-img: /assets/img/characters_background.jpeg
 use-site-title: false
 ---
-<div style="display: flex; justify-content: space-between; align-items: baseline; width: 100%; padding: 0 10px; box-sizing: border-box;">
-  <div style="flex-grow: 1; text-align: center;">
-    <a href="/drama">
-      <img src="/assets/img/drama.jpg.webp" alt="Drama" style="width: 100%; height: auto; border-radius: 10px;">
-    </a>
-    <p style="margin: 10px 0; font-weight: bold;">Drama</p>
-  </div>
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%;">
+  <a href="/drama" style="flex: 1;">
+    <img src="/assets/img/drama.jpg.webp" alt="Drama" style="width: 100%; height: auto; border-radius: 10px;">
+    <p style="margin: 10px 0; font-weight: bold; text-align: center;">Drama</p>
+  </a>
   
-  <div style="flex-grow: 1; text-align: center;">
-    <a href="/family">
-      <img src="/assets/img/family.jpg.webp" alt="Family" style="width: 100%; height: auto; border-radius: 10px;">
-    </a>
-    <p style="margin: 10px 0; font-weight: bold;">Family</p>
-  </div>
+  <a href="/family" style="flex: 1;">
+    <img src="/assets/img/family.jpg.webp" alt="Family" style="width: 100%; height: auto; border-radius: 10px;">
+    <p style="margin: 10px 0; font-weight: bold; text-align: center;">Family</p>
+  </a>
   
-  <div style="flex-grow: 1; text-align: center;">
-    <a href="/action_adventure">
-      <img src="/assets/img/action.jpg" alt="Action & Adventure" style="width: 100%; height: auto; border-radius: 10px;">
-    </a>
-    <p style="margin: 10px 0; font-weight: bold;">Action & Adventure</p>
-  </div>
+  <a href="/action_adventure" style="flex: 1;">
+    <img src="/assets/img/action.jpg" alt="Action & Adventure" style="width: 100%; height: auto; border-radius: 10px;">
+    <p style="margin: 10px 0; font-weight: bold; text-align: center;">Action & Adventure</p>
+  </a>
   
-  <div style="flex-grow: 1; text-align: center;">
-    <a href="/fiction">
-      <img src="/assets/img/fiction.jpg" alt="Science-Fiction" style="width: 100%; height: auto; border-radius: 10px;">
-    </a>
-    <p style="margin: 10px 0; font-weight: bold;">Science-Fiction</p>
-  </div>
+  <a href="/fiction" style="flex: 1;">
+    <img src="/assets/img/fiction.jpg" alt="Science-Fiction" style="width: 100%; height: auto; border-radius: 10px;">
+    <p style="margin: 10px 0; font-weight: bold; text-align: center;">Fiction</p>
+  </a>
   
-  <div style="flex-grow: 1; text-align: center;">
-    <a href="/horror">
-      <img src="/assets/img/horror.jpg" alt="Horror" style="width: 100%; height: auto; border-radius: 10px;">
-    </a>
-    <p style="margin: 10px 0; font-weight: bold;">Horror</p>
-  </div>
+  <a href="/horror" style="flex: 1;">
+    <img src="/assets/img/horror.jpg" alt="Horror" style="width: 100%; height: auto; border-radius: 10px;">
+    <p style="margin: 10px 0; font-weight: bold; text-align: center;">Horror</p>
+  </a>
 </div>
 
 
