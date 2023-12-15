@@ -26,7 +26,7 @@ use-site-title: false
   
   <a href="/fiction" style="flex: 1;">
     <img src="/assets/img/fiction.jpg" alt="Science-Fiction" style="width: 100%; height: auto; border-radius: 10px;">
-    <p style="margin: 10px 0; font-weight: bold; text-align: center;">Fiction</p>
+    <p style="margin: 10px 0; font-weight: bold; text-align: center;">Science-Fiction</p>
   </a>
   
   <a href="/horror" style="flex: 1;">
