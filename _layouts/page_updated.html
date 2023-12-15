@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+<main>
+    {% if page.full-width-header %}
+    <div class="container-fluid">
+      <!-- Content that will take the full width of the page -->
+      {{ page.full-width-header | markdownify }}
+    </div>
+    {% endif %}
+  
+    <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+      <div class="row">
+        <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+          <!-- Rest of the content that follows the original layout -->
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </main>
