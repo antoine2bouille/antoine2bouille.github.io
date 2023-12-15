@@ -12,7 +12,7 @@ var cy = cytoscape({
         'height': 80,
         'width': 80,
         'background-fit': 'cover',
-        'border-color': '#A32303',
+        'border-color': '#C58135',
         'border-width': 6,
         'border-opacity': 1
       })
@@ -26,7 +26,7 @@ var cy = cytoscape({
       })
     .selector('#genre')
       .css({
-        'background-image': '/assets/img/drama_mask.jpeg',
+        'background-image': '/assets/img/action_logo.jpg',
         
       })
     .selector('#role_1')
