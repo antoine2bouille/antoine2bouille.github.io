@@ -44,8 +44,8 @@ The visualizations you see are a direct result of this analysis. The world map c
 
 Machine learning, and specifically the use of CatBoost here, is crucial because it can handle complex datasets with multiple categorical variables. It provides a systematic approach to sifting through data, identifying patterns, and quantifying their significance, which is essential in the nuanced field of movie analytics. The result is a data-driven strategy for enhancing movie success, grounded in the quantitative analysis provided by machine learning
 
-<div>
-    <table style="width:50%; border: 1px solid black; border-collapse: collapse;">
+<div style="margin:auto; width:50%;">
+    <table style="width:100%; border: 1px solid black; border-collapse: collapse;">
         <tr style="border: 1px solid black;">
             <th style="border: 1px solid black; padding: 8px;">Metric</th>
             <th style="border: 1px solid black; padding: 8px;">Value</th>
