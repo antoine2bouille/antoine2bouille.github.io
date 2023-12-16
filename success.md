@@ -11,10 +11,6 @@ full-width-genres: true
 
 ---
 
-
-
-
-
 ## Introduction
 
 In a landscape where the art of filmmaking meets the science of market success, movie producers often find themselves at a crossroads. The goal is to create a cinematic experience that not only resonates with audiences emotionally by getting good ratings and reviews but also performs exceptionally at the box office. Achieving this dual triumph of critical acclaim and financial success is no small feat in the competitive terrain of the film industry.
@@ -85,6 +81,26 @@ Similar to the box office revenue graph, this shows the frequency distribution o
 The plot displays density functions for the profit of movies, also categorized by their award status. The x-axis is on a logarithmic scale, indicating a wide range of profits. We can see distinct peaks for each category. Awarded movies have the highest peak, followed by nominated movies, which suggests that, on average, awarded movies tend to be more profitable. Non-awarded and Non-nominated movies have a flatter distribution with a peak at a lower profit level, indicating that these movies, while varied, generally earn less than their awarded or nominated counterparts. The log scale indicates that there are movies with very high profits, but they are less frequent, as seen by the density curves approaching the tail end.
 
 
+Of course, this approach is naïve, since it includes confounders. We're going to remove these biases with a more advanced model using propensity scores based on runtime, IMbD scores and number of votes. Then we'll match films with the same propensity score for both award and non-award films.
+We obtain the following histogram:
+
+
+METTRE GRAPH 1 CAUSAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Scatterplot of movie runtime vs profit**
 
 <div style="width: 100%;display: flex; justify-content: center;">
@@ -131,24 +147,3 @@ This collection of plots illustrates the profit distribution of movies across di
 </div>
 This box plot presents the distribution of box office revenue by genre, showing the median, interquartile range, and outliers.
 Drama and family genres have lower median revenues but a wide range of outcomes, as indicated by the long whiskers and outliers. This variability could reflect a mix of low-budget dramas and high-grossing family blockbusters. Action/Adventure and Fiction have higher medians and less variability compared to Drama and Family, suggesting these genres are more consistently high-earning. Other genres show a lower median but also have a considerable spread, which could include niche films with both low and unexpectedly high revenues. Understanding the revenue distribution by genre can inform producers and investors about the potential financial risk and return associated with different types of movies.
-
-
-## Causal analysis of observational data 
-- Sensitivity analysis : nominated, oscar, rating --> profitability ?? 
-- Mettre des vilains graphes
-
-
-### How does the profitability of movies vary across genres
-
-
-## Exploring main genres through research questions 
-
-If you want to answer these questions:
-
-- Which genre is more represented according to a location? Which genre performs better according to a location?
-- How do rating and revenue vary as a function of the genre?
-- What is the relationship between ratings and revenues?
-- What is the optimal runtime for each genre?
-- Which relation between the screen time and the opportunity to win an award ?
-
-Click on the icon of the genre you're interested in!
