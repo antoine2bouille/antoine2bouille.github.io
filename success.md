@@ -83,7 +83,7 @@ The plot displays density functions for the profit of movies, also categorized b
 
 Of course, this approach is naïve, since it includes confounders. We're going to remove these biases with a more advanced model using propensity scores:
 
-similarity(x,y) = 1 - | propensity_score(x) - propensity_score(y) |
+$$ similarity(x,y) = 1 - | propensity_score(x) - propensity_score(y) | $$
 
 This function captures the difference in scores like a distance, but since the distance defined like that would always be between 0 and 1, subtracting it from 1 would be a meaningful measure to use for similarity.
 
