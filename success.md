@@ -97,17 +97,61 @@ This new graph (after controlling for confounders) seems to show a slightly weak
  - A film's IMBD index is clearly positively correlated with profits generated and with whether or not it has won an award.
  - Release date may also be related to inflation-adjusted earnings. Indeed, a film released in the 1950s had no chance of making the same profits as one released today; this can be explained by the fact that the film industry was much more restricted back then.
 
+To confirm our analysis we perform a statistical test comparing the inflation-adjusted profits between awarded and non-awarded movies. 
 
+<div style="margin:auto; width:50%;">
+    <table style="width:100%; border: 1px solid black; border-collapse: collapse;">
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black; padding: 8px;">t-value</th>
+            <th style="border: 1px solid black; padding: 8px;">p-value</th>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black; padding: 8px;">3.5209</td>
+            <td style="border: 1px solid black; padding: 8px;">0.00046</td>
+        </tr>
+    </table>
+</div>
 
+There yields a significant result due to the p-value very low. This suggests that there is a statistically significant difference in profits between movies that have received awards and those that have not.
 
+The last step is to check whether we get the same result for all 5 film genres. To do so we perform a statistical test:
 
+<div style="margin:auto; width:60%;">
+    <table style="width:100%; border: 1px solid black; border-collapse: collapse;">
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black; padding: 8px;">Film genre</th>
+            <th style="border: 1px solid black; padding: 8px;">t-value</th>
+            <th style="border: 1px solid black; padding: 8px;">p-value</th>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black; padding: 8px;">Drama</td>
+            <td style="border: 1px solid black; padding: 8px;">4.1644</td>
+            <td style="border: 1px solid black; padding: 8px;">3.8874 e-5</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black; padding: 8px;">Family</td>
+            <td style="border: 1px solid black; padding: 8px;">0.2926</td>
+            <td style="border: 1px solid black; padding: 8px;">0.7702</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black; padding: 8px;">Action & Adenture</td>
+            <td style="border: 1px solid black; padding: 8px;">3.1385</td>
+            <td style="border: 1px solid black; padding: 8px;">0.0024</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black; padding: 8px;">Science-fiction</td>
+            <td style="border: 1px solid black; padding: 8px;">-0.3015</td>
+            <td style="border: 1px solid black; padding: 8px;">0.7657</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black; padding: 8px;">Horror</td>
+            <td style="border: 1px solid black; padding: 8px;">1.1604</td>
+            <td style="border: 1px solid black; padding: 8px;">0.2793</td>
+        </tr>
+    </table>
+</div>
 
-
-
-
-
-
-
+This is interesting, because it would seem that this correlation between rewards received and profits only affects certain genders. Indeed, we can see that for films in the Drama and Action-Adventure genres, the result is significant (due to p-value very low), whereas for films in the Family, Science-fiction and Horror genres, the result is inconclusive because the p-value is too high.
 
 
 
