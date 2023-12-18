@@ -54,10 +54,7 @@ var cy = cytoscape({
       .css({
         'background-image': '/assets/img/family/landry_bender.jpeg'
       })
-  .selector('#actor_3')
-      .css({
-        'background-image': '/assets/img/jackman.jpeg'
-      })
+  
   .selector('#actor_4')
       .css({
         'background-image': '/assets/img/family/elliot_page.webp'
@@ -66,10 +63,7 @@ var cy = cytoscape({
       .css({
         'background-image': '/assets/img/family/spencer_breslin.webp'
       })
-  .selector('#actor_6')
-      .css({
-        'background-image': '/assets/img/bullock.jpeg'
-      })
+  
   .selector('#actor_7')
       .css({
         'background-image': '/assets/img/family/bailee_madison.jpeg'
@@ -78,10 +72,7 @@ var cy = cytoscape({
       .css({
         'background-image': '/assets/img/family/ariel_winter.jpeg'
       })
-  .selector('#actor_9')
-      .css({
-        'background-image': '/assets/img/chalamet.jpeg'
-      })
+  
   .selector('#actor_10')
       .css({
         'background-image': '/assets/img/family/Cillian_Murphy.jpeg'
@@ -90,11 +81,8 @@ var cy = cytoscape({
       .css({
         'background-image': '/assets/img/family/david_harbour.webp'
       })
-  .selector('#actor_12')
-      .css({
-        'background-image': '/assets/img/jackman.jpeg'
-      })
-      .selector('#director')
+  
+  .selector('#director')
       .css({
         'background-image': '/assets/img/directors/director_chair.png'
       })
