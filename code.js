@@ -48,53 +48,37 @@ var cy = cytoscape({
       })
   .selector('#actor_1')
       .css({
-        'background-image': '/assets/img/di_caprio.webp'
+        'background-image': '/assets/img/actors/drama/alden_ehrenreich.webp'
       })
   .selector('#actor_2')
       .css({
-        'background-image': '/assets/img/brad_pitt.jpeg'
-      })
-  .selector('#actor_3')
-      .css({
-        'background-image': '/assets/img/jackman.jpeg'
+        'background-image': '/assets/img/actors/drama/tom_felton.webp'
       })
   .selector('#actor_4')
       .css({
-        'background-image': '/assets/img/jolie.jpeg'
+        'background-image': '/assets/img/actors/drama/jared_leto.jpeg'
       })
   .selector('#actor_5')
       .css({
-        'background-image': '/assets/img/kruger.jpeg'
-      })
-  .selector('#actor_6')
-      .css({
-        'background-image': '/assets/img/bullock.jpeg'
+        'background-image': '/assets/img/actors/drama/jon_favreau.jpeg'
       })
   .selector('#actor_7')
       .css({
-        'background-image': '/assets/img/holland.jpeg'
+        'background-image': '/assets/img/actors/drama/mel_gibson.webp'
       })
   .selector('#actor_8')
       .css({
-        'background-image': '/assets/img/butler.jpeg'
-      })
-  .selector('#actor_9')
-      .css({
-        'background-image': '/assets/img/chalamet.jpeg'
+        'background-image': '/assets/img/actors/drama/denzel_washington.webp'
       })
   .selector('#actor_10')
       .css({
-        'background-image': '/assets/img/brad_pitt.jpeg'
+        'background-image': '/assets/img/actors/drama/olivia_cooke.jpeg'
       })
   .selector('#actor_11')
       .css({
-        'background-image': '/assets/img/holland.jpeg'
+        'background-image': '/assets/img/actors/drama/kelsey_asbille.jpeg'
       })
-  .selector('#actor_12')
-      .css({
-        'background-image': '/assets/img/jackman.jpeg'
-      })
-      .selector('#director')
+  .selector('#director')
       .css({
         'background-image': '/assets/img/directors/director_chair.png'
       })
