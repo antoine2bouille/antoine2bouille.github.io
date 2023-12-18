@@ -167,6 +167,11 @@ var nconsts = {
 }
 
 var names = {
+  'director': 'Director',
+  'role_1': 'Role 1',
+  'role_2': 'Role 2',
+  'role_3': 'Role 3',
+  'role_4': 'Role 4',
   "actor_1": "Katheryn Winnick",
   "actor_2": "Anna Torv",
   "actor_4": "Jay Hernandez",
