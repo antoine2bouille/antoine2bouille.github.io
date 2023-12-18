@@ -70,7 +70,7 @@ var cy = cytoscape({
       })
   .selector('#actor_8')
       .css({
-        'background-image': '/assets/img/actors/family/ariel winter.jpeg'
+        'background-image': '/assets/img/actors/family/ariel_winter.jpeg'
       })
   
   .selector('#actor_10')
