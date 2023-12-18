@@ -116,18 +116,21 @@ var cy = cytoscape({
       { data: { id: 'role_2' } },
       { data: { id: 'role_3' } },
       { data: { id: 'role_4' } },
+      { data: { id: 'director' } },
+      { data: { id: 'director_1' } },
+      { data: { id: 'director_2' } },
       { data: { id: 'actor_1' } },
       { data: { id: 'actor_2' } },
-      { data: { id: 'actor_3' } },
+      //{ data: { id: 'actor_3' } },
       { data: { id: 'actor_4' } },
       { data: { id: 'actor_5' } },
-      { data: { id: 'actor_6' } },
+      //{ data: { id: 'actor_6' } },
       { data: { id: 'actor_7' } },
       { data: { id: 'actor_8' } },
-      { data: { id: 'actor_9' } },
+      //{ data: { id: 'actor_9' } },
       { data: { id: 'actor_10' } },
       { data: { id: 'actor_11' } },
-      { data: { id: 'actor_12' } },
+      //{ data: { id: 'actor_12' } },
     ],
     edges: [
       
@@ -137,16 +140,16 @@ var cy = cytoscape({
       { data: { source: 'genre', target: 'role_4' } },
       { data: { source: 'role_1', target: 'actor_1' } },
       { data: { source: 'role_1', target: 'actor_2' } },
-      { data: { source: 'role_1', target: 'actor_3' } },
+      //{ data: { source: 'role_1', target: 'actor_3' } },
       { data: { source: 'role_2', target: 'actor_4' } },
       { data: { source: 'role_2', target: 'actor_5' } },
-      { data: { source: 'role_2', target: 'actor_6' } },
+      //{ data: { source: 'role_2', target: 'actor_6' } },
       { data: { source: 'role_3', target: 'actor_7' } },
       { data: { source: 'role_3', target: 'actor_8' } },
-      { data: { source: 'role_3', target: 'actor_9' } },
+      //{ data: { source: 'role_3', target: 'actor_9' } },
       { data: { source: 'role_4', target: 'actor_10' } },
       { data: { source: 'role_4', target: 'actor_11' } },
-      { data: { source: 'role_4', target: 'actor_12' } }
+      //{ data: { source: 'role_4', target: 'actor_12' } }
       
       
     ]
