@@ -24,7 +24,7 @@ var cy = cytoscape({
         'line-color': '#CF9E11',
         'target-arrow-color': '#CF9E11'
       })
-    .selector('#genre')
+    .selector('#Drama')
       .css({
         'background-image': '/assets/img/drama_mask.jpeg',
         
@@ -95,7 +95,7 @@ var cy = cytoscape({
   elements: {
     nodes: [
       
-      { data: { id: 'genre' } },
+      { data: { id: 'Drama' } },
       { data: { id: 'role_1' } },
       { data: { id: 'role_2' } },
       { data: { id: 'role_3' } },
@@ -118,11 +118,11 @@ var cy = cytoscape({
     ],
     edges: [
       
-      { data: { source: 'genre', target: 'role_1' } },
-      { data: { source: 'genre', target: 'role_2' } },
-      { data: { source: 'genre', target: 'role_3' } },
-      { data: { source: 'genre', target: 'role_4' } },
-      { data: { source: 'genre', target: 'director' } },
+      { data: { source: 'Drama', target: 'role_1' } },
+      { data: { source: 'Drama', target: 'role_2' } },
+      { data: { source: 'Drama', target: 'role_3' } },
+      { data: { source: 'Drama', target: 'role_4' } },
+      { data: { source: 'Drama', target: 'director' } },
       { data: { source: 'director', target: 'director_1' } },
       { data: { source: 'director', target: 'director_2' } },
       { data: { source: 'role_1', target: 'actor_1' } },
@@ -161,7 +161,7 @@ actorNodes.forEach(function(actorId) {
   });
 });
 
-cy.elements('node[id != "genre"]').style({
+cy.elements('node[id != "Drama"]').style({
   'display': 'none',
   'opacity': 0,
   'width': 0,
@@ -190,9 +190,9 @@ function showConnectedNodes(nodeId) {
   node.connectedEdges().style('display', 'element');
 }
 
-// Click event on 'genre' node to show 'role' nodes
-cy.getElementById('genre').on('click', function() {
-  showConnectedNodes('genre');
+// Click event on 'Drama' node to show 'role' nodes
+cy.getElementById('Drama').on('click', function() {
+  showConnectedNodes('Drama');
 });
 
 // Click events on 'role' nodes to show connected nodes
