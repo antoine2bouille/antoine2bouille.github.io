@@ -243,5 +243,3 @@ cy.on('mouseout', 'node', function(){
     tooltip.remove();
   });
 });
-
-// on tap
