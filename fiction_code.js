@@ -24,7 +24,7 @@ var cy = cytoscape({
         'line-color': '#05F045',
         'target-arrow-color': '#05F045'
       })
-    .selector('#genre')
+    .selector('#Science-Fiction')
       .css({
         'background-image': '/assets/img/sf_logo.jpg',
         
@@ -48,51 +48,35 @@ var cy = cytoscape({
       })
   .selector('#actor_1')
       .css({
-        'background-image': '/assets/img/di_caprio.webp'
+        'background-image': '/assets/img/actors/fiction/katheryn_winnick.jpeg'
       })
   .selector('#actor_2')
       .css({
-        'background-image': '/assets/img/brad_pitt.jpeg'
-      })
-  .selector('#actor_3')
-      .css({
-        'background-image': '/assets/img/jackman.jpeg'
+        'background-image': '/assets/img/actors/fiction/anna_torv.jpeg'
       })
   .selector('#actor_4')
       .css({
-        'background-image': '/assets/img/jolie.jpeg'
+        'background-image': '/assets/img/actors/fiction/jay_hernandez.webp'
       })
   .selector('#actor_5')
       .css({
-        'background-image': '/assets/img/kruger.jpeg'
-      })
-  .selector('#actor_6')
-      .css({
-        'background-image': '/assets/img/bullock.jpeg'
+        'background-image': '/assets/img/actors/fiction/john_cena.jpeg'
       })
   .selector('#actor_7')
       .css({
-        'background-image': '/assets/img/holland.jpeg'
+        'background-image': '/assets/img/actors/fiction/sissy_spacek.webp'
       })
   .selector('#actor_8')
       .css({
-        'background-image': '/assets/img/butler.jpeg'
-      })
-  .selector('#actor_9')
-      .css({
-        'background-image': '/assets/img/chalamet.jpeg'
+        'background-image': '/assets/img/actors/fiction/jessica_lange.jpeg'
       })
   .selector('#actor_10')
       .css({
-        'background-image': '/assets/img/brad_pitt.jpeg'
+        'background-image': '/assets/img/actors/fiction/hailee_steinfeld.jpeg'
       })
   .selector('#actor_11')
       .css({
-        'background-image': '/assets/img/holland.jpeg'
-      })
-  .selector('#actor_12')
-      .css({
-        'background-image': '/assets/img/jackman.jpeg'
+        'background-image': '/assets/img/actors/fiction/madison_iseman.jpeg'
       })
   .selector('#director')
       .css({
@@ -100,18 +84,18 @@ var cy = cytoscape({
       })
   .selector('#director_1')
       .css({
-        'background-image': '/assets/img/directors/deltoro.jpg'
+        'background-image': '/assets/img/directors/ridley_scott.jpeg'
       })
   .selector('#director_2')
       .css({
-        'background-image': '/assets/img/directors/woody_allen.jpg'
+        'background-image': '/assets/img/directors/martha_coolidge.jpeg'
       }),
    
 
   elements: {
     nodes: [
       
-      { data: { id: 'genre' } },
+      { data: { id: 'Science-Fiction' } },
       { data: { id: 'role_1' } },
       { data: { id: 'role_2' } },
       { data: { id: 'role_3' } },
@@ -134,11 +118,11 @@ var cy = cytoscape({
     ],
     edges: [
       
-      { data: { source: 'genre', target: 'role_1' } },
-      { data: { source: 'genre', target: 'role_2' } },
-      { data: { source: 'genre', target: 'role_3' } },
-      { data: { source: 'genre', target: 'role_4' } },
-      { data: { source: 'genre', target: 'director' } },
+      { data: { source: 'Science-Fiction', target: 'role_1' } },
+      { data: { source: 'Science-Fiction', target: 'role_2' } },
+      { data: { source: 'Science-Fiction', target: 'role_3' } },
+      { data: { source: 'Science-Fiction', target: 'role_4' } },
+      { data: { source: 'Science-Fiction', target: 'director' } },
       { data: { source: 'director', target: 'director_1' } },
       { data: { source: 'director', target: 'director_2' } },
       { data: { source: 'role_1', target: 'actor_1' } },
@@ -177,7 +161,7 @@ actorNodes.forEach(function(actorId) {
   });
 });
 
-cy.elements('node[id != "genre"]').style({
+cy.elements('node[id != "Science-Fiction"]').style({
   'display': 'none',
   'opacity': 0,
   'width': 0,
@@ -206,9 +190,9 @@ function showConnectedNodes(nodeId) {
   node.connectedEdges().style('display', 'element');
 }
 
-// Click event on 'genre' node to show 'role' nodes
-cy.getElementById('genre').on('click', function() {
-  showConnectedNodes('genre');
+// Click event on 'Science-Fiction' node to show 'role' nodes
+cy.getElementById('Science-Fiction').on('click', function() {
+  showConnectedNodes('Science-Fiction');
 });
 
 // Click events on 'role' nodes to show connected nodes
