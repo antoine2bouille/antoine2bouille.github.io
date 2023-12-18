@@ -156,7 +156,21 @@ var cy = cytoscape({
 function openUrl(url) {
   window.open(url, '_blank'); // '_blank' opens the URL in a new tab
 }
+
+var nconsts = {
+  'actor_1': 'nm5611121',
+  'actor_2': 'nm4085883',
+  'actor_4': 'nm0680983',
+  'actor_5': 'nm0107748',
+  'actor_7': 'nm1933128',
+  'actor_8': 'nm1736769',
+  'actor_10': 'nm0614165',
+  'actor_11': 'nm1092086',
+  'director_1': 'nm0594503',
+  'director_2': 'nm0413875'
+};
 var names = {
+  'Family': 'Family',
   'director': 'Director',
   'role_1': 'Role 1',
   'role_2': 'Role 2',
@@ -225,7 +239,7 @@ cy.getElementById('Family').on('click', function() {
 
 cy.on('mouseover', 'node', function(event){
   var node = event.target;
-  var nodeName = node.id();
+  var nodeName = names[node.id()];
   var nodePosition = node.renderedPosition();
 
   // create a div element to use as a tooltip

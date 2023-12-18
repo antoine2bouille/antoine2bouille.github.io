@@ -152,6 +152,37 @@ var cy = cytoscape({
 function openUrl(url) {
   window.open(url, '_blank'); // '_blank' opens the URL in a new tab
 }
+var nconsts = {
+    'actor_1': 'nm1086543',
+    'actor_2': 'nm0271657',
+    'actor_4': 'nm0001467',
+    'actor_5': 'nm0269463',
+    'actor_7': 'nm0000154',
+    'actor_8': 'nm0000243',
+    'actor_10': 'nm5611121',
+    'actor_11': 'nm5611122',
+    'director_1': 'nm0000095',
+    'director_2': 'nm0000631'
+};
+
+var names = {
+  'Drama' : 'Drama',
+  'director': 'Director',
+  'role_1': 'Role 1',
+  'role_2': 'Role 2',
+  'role_3': 'Role 3',
+  'role_4': 'Role 4',
+  'actor_1': 'Alden Ehrenreich',
+  'actor_2': 'Tom Felton',
+  'actor_4': 'Jared Leto',
+  'actor_5': 'Jon Favreau',
+  'actor_7': 'Mel Gibson',
+  'actor_8': 'Denzel Washington',
+  'actor_10': 'Olivia Cooke',
+  'actor_11': 'Kelsey Asbille',
+  'director_1': 'Woody Allen',
+  'director_2': 'Ridley Scott'
+};
 
 // Attaching click event listeners to 'actor' nodes
 var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11', 'director_1', 'director_2'];

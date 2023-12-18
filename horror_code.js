@@ -166,6 +166,7 @@ var nconsts = {
 };
 
 var names = {
+  'Horror': 'Horror',
   'director': 'Director',
   'role_1': 'Role 1',
   'role_2': 'Role 2',
