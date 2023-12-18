@@ -153,11 +153,12 @@ function openUrl(url) {
   window.open(url, '_blank'); // '_blank' opens the URL in a new tab
 }
 
-// Attaching click event listeners to 'actor' nodes
-var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11'];
+// Attaching click event listeners to 'actor'Ò nodes
+var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11', 'director_1', 'director_2'];
 actorNodes.forEach(function(actorId) {
   cy.getElementById(actorId).on('click', function() {
-    openUrl('https://www.imdb.com/name/nm0000138/?ref_=fn_al_nm_1');
+    var url = 'https://www.imdb.com/name/' + nconsts[actorId];
+    openUrl(url);
   });
 });
 

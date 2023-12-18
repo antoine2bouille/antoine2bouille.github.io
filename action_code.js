@@ -152,10 +152,11 @@ function openUrl(url) {
 }
 
 // Attaching click event listeners to 'actor' nodes
-var actorNodes = ['actor_1', 'actor_2', 'actor_3', 'actor_4', 'actor_5', 'actor_6', 'actor_7', 'actor_8', 'actor_9', 'actor_10', 'actor_11', 'actor_12'];
+var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11', 'director_1', 'director_2'];
 actorNodes.forEach(function(actorId) {
   cy.getElementById(actorId).on('click', function() {
-    openUrl('https://www.imdb.com/name/nm0000138/?ref_=fn_al_nm_1');
+    var url = 'https://www.imdb.com/name/' + nconsts[actorId];
+    openUrl(url);
   });
 });
 
