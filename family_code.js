@@ -48,38 +48,38 @@ var cy = cytoscape({
       })
   .selector('#actor_1')
       .css({
-        'background-image': '/assets/img/family/millie_bobby_brown.jpeg'
+        'background-image': '/assets/img/actors/family/millie_bobby_brown.jpeg'
       })
   .selector('#actor_2')
       .css({
-        'background-image': '/assets/img/family/landry_bender.jpeg'
+        'background-image': '/assets/img/actors/family/landry_bender.jpeg'
       })
   
   .selector('#actor_4')
       .css({
-        'background-image': '/assets/img/family/elliot_page.webp'
+        'background-image': '/assets/img/actors/family/elliot_page.webp'
       })
   .selector('#actor_5')
       .css({
-        'background-image': '/assets/img/family/spencer_breslin.webp'
+        'background-image': '/assets/img/actors/family/spencer_breslin.webp'
       })
   
   .selector('#actor_7')
       .css({
-        'background-image': '/assets/img/family/bailee_madison.jpeg'
+        'background-image': '/assets/img/actors/family/bailee_madison.jpeg'
       })
   .selector('#actor_8')
       .css({
-        'background-image': '/assets/img/family/ariel_winter.jpeg'
+        'background-image': '/assets/img/actors/family/ariel_winter.jpeg'
       })
   
   .selector('#actor_10')
       .css({
-        'background-image': '/assets/img/family/Cillian_Murphy.jpeg'
+        'background-image': '/assets/img/actors/family/Cillian_Murphy.jpeg'
       })
   .selector('#actor_11')
       .css({
-        'background-image': '/assets/img/family/david_harbour.webp'
+        'background-image': '/assets/img/actors/family/david_harbour.webp'
       })
   
   .selector('#director')
