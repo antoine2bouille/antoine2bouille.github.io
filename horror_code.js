@@ -152,6 +152,31 @@ var cy = cytoscape({
 function openUrl(url) {
   window.open(url, '_blank'); // '_blank' opens the URL in a new tab
 }
+var nconsts = {
+  'actor_1': 'nm0666739',
+  'actor_2': 'nm0992538',
+  'actor_4': 'nm3929887',
+  'actor_5': 'nm6161516',
+  'actor_7': 'nm1374980',
+  'actor_8': 'nm0005156',
+  'actor_10': 'nm1431940',
+  'actor_11': 'nm0004705',
+  'director_1': 'nm0868219',
+  'director_2': 'nm1047180'
+};
+
+var names = {
+  'actor_1': 'Aaron Paul',
+  'actor_2': 'Steve Howey',
+  'actor_4': 'Lili Reinhart',
+  'actor_5': 'Camila Mendes',
+  'actor_7': 'Zac Efron',
+  'actor_8': 'Eric Lloyd',
+  'actor_10': 'Evangeline Lilly',
+  'actor_11': 'Summer Altice',
+  'director_1': 'Guillermo del Toro',
+  'director_2': 'William Winckler'
+};
 
 // Attaching click event listeners to 'actor'Ò nodes
 var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11', 'director_1', 'director_2'];
@@ -205,7 +230,7 @@ cy.getElementById('Horror').on('click', function() {
 
 cy.on('mouseover', 'node', function(event){
   var node = event.target;
-  var nodeName = node.id();
+  var nodeName = names[node.id()];
   var nodePosition = node.renderedPosition();
 
   // create a div element to use as a tooltip
