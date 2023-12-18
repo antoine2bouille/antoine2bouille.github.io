@@ -3,7 +3,36 @@ layout: base
 ---
 
 {% include header.html type="page" %}
-
+{% if page.full-width-genres %}
+<div class="container-fluid">
+  <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%;">
+    <a href="/drama" style="flex: 1;">
+      <img src="/assets/img/drama.jpg.webp" alt="Drama" style="width: 100%; height: auto; border-radius: 10px;">
+      <p style="margin: 10px 0; font-weight: bold; text-align: center;">Drama</p>
+    </a>
+    
+    <a href="/family" style="flex: 1;">
+      <img src="/assets/img/family.jpg.webp" alt="Family" style="width: 100%; height: auto; border-radius: 10px;">
+      <p style="margin: 10px 0; font-weight: bold; text-align: center;">Family</p>
+    </a>
+    
+    <a href="/action_adventure" style="flex: 1;">
+      <img src="/assets/img/action.jpg" alt="Action & Adventure" style="width: 100%; height: auto; border-radius: 10px;">
+      <p style="margin: 10px 0; font-weight: bold; text-align: center;">Action & Adventure</p>
+    </a>
+    
+    <a href="/fiction" style="flex: 1;">
+      <img src="/assets/img/fiction.jpg" alt="Science-Fiction" style="width: 100%; height: auto; border-radius: 10px;">
+      <p style="margin: 10px 0; font-weight: bold; text-align: center;">Science-Fiction</p>
+    </a>
+    
+    <a href="/horror" style="flex: 1;">
+      <img src="/assets/img/horror.jpg" alt="Horror" style="width: 100%; height: auto; border-radius: 10px;">
+      <p style="margin: 10px 0; font-weight: bold; text-align: center;">Horror</p>
+    </a>
+  </div>
+</div>
+{% endif %}
 <main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   <div class="row">
     <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">

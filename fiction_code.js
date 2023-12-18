@@ -93,6 +93,18 @@ var cy = cytoscape({
   .selector('#actor_12')
       .css({
         'background-image': '/assets/img/jackman.jpeg'
+      })
+  .selector('#director')
+      .css({
+        'background-image': '/assets/img/directors/director_chair.png'
+      })
+  .selector('#director_1')
+      .css({
+        'background-image': '/assets/img/directors/deltoro.jpg'
+      })
+  .selector('#director_2')
+      .css({
+        'background-image': '/assets/img/directors/woody_allen.jpg'
       }),
    
 
@@ -104,18 +116,21 @@ var cy = cytoscape({
       { data: { id: 'role_2' } },
       { data: { id: 'role_3' } },
       { data: { id: 'role_4' } },
+      { data: { id: 'director' } },
       { data: { id: 'actor_1' } },
       { data: { id: 'actor_2' } },
-      { data: { id: 'actor_3' } },
+      //{ data: { id: 'actor_3' } },
       { data: { id: 'actor_4' } },
       { data: { id: 'actor_5' } },
-      { data: { id: 'actor_6' } },
+      //{ data: { id: 'actor_6' } },
       { data: { id: 'actor_7' } },
       { data: { id: 'actor_8' } },
-      { data: { id: 'actor_9' } },
+      //{ data: { id: 'actor_9' } },
       { data: { id: 'actor_10' } },
       { data: { id: 'actor_11' } },
-      { data: { id: 'actor_12' } },
+      //{ data: { id: 'actor_12' } },
+      { data: { id: 'director_1' } },
+      { data: { id: 'director_2' } },
     ],
     edges: [
       
@@ -123,18 +138,21 @@ var cy = cytoscape({
       { data: { source: 'genre', target: 'role_2' } },
       { data: { source: 'genre', target: 'role_3' } },
       { data: { source: 'genre', target: 'role_4' } },
+      { data: { source: 'genre', target: 'director' } },
+      { data: { source: 'director', target: 'director_1' } },
+      { data: { source: 'director', target: 'director_2' } },
       { data: { source: 'role_1', target: 'actor_1' } },
       { data: { source: 'role_1', target: 'actor_2' } },
-      { data: { source: 'role_1', target: 'actor_3' } },
+      //{ data: { source: 'role_1', target: 'actor_3' } },
       { data: { source: 'role_2', target: 'actor_4' } },
       { data: { source: 'role_2', target: 'actor_5' } },
-      { data: { source: 'role_2', target: 'actor_6' } },
+      //{ data: { source: 'role_2', target: 'actor_6' } },
       { data: { source: 'role_3', target: 'actor_7' } },
       { data: { source: 'role_3', target: 'actor_8' } },
-      { data: { source: 'role_3', target: 'actor_9' } },
+      //{ data: { source: 'role_3', target: 'actor_9' } },
       { data: { source: 'role_4', target: 'actor_10' } },
       { data: { source: 'role_4', target: 'actor_11' } },
-      { data: { source: 'role_4', target: 'actor_12' } }
+      //{ data: { source: 'role_4', target: 'actor_12' } }
       
       
     ]
@@ -152,7 +170,7 @@ function openUrl(url) {
 }
 
 // Attaching click event listeners to 'actor' nodes
-var actorNodes = ['actor_1', 'actor_2', 'actor_3', 'actor_4', 'actor_5', 'actor_6', 'actor_7', 'actor_8', 'actor_9', 'actor_10', 'actor_11', 'actor_12'];
+var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11'];
 actorNodes.forEach(function(actorId) {
   cy.getElementById(actorId).on('click', function() {
     openUrl('https://www.imdb.com/name/nm0000138/?ref_=fn_al_nm_1');
@@ -194,7 +212,7 @@ cy.getElementById('genre').on('click', function() {
 });
 
 // Click events on 'role' nodes to show connected nodes
-['role_1', 'role_2', 'role_3', 'role_4'].forEach(function(roleId) {
+['role_1', 'role_2', 'role_3', 'role_4', 'director'].forEach(function(roleId) {
   cy.getElementById(roleId).on('click', function() {
     showConnectedNodes(roleId);
   });

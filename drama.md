@@ -2,9 +2,9 @@
 layout: page
 title: Drama movies
 subtitle: What are the main drivers to a successfull drama movie ? 
-cover-img: /assets/img/movies.jpeg
-thumbnail-img: /assets/img/movies.jpeg
-share-img: /assets/img/movies.jpeg
+cover-img: /assets/img/drama_banner.jpg
+thumbnail-img: /assets/img/drama_banner.jpg
+share-img: /assets/img/drama_banner.jpg
 use-site-title: false
 ---
   

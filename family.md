@@ -2,9 +2,9 @@
 layout: page
 title: Family movies
 subtitle: What are the main drivers to a successfull family movie ? 
-cover-img: /assets/img/movies.jpeg
-thumbnail-img: /assets/img/movies.jpeg
-share-img: /assets/img/movies.jpeg
+cover-img: /assets/img/family_banner.jpeg
+thumbnail-img: /assets/img/family_banner.jpeg
+share-img: /assets/img/family_banner.jpeg
 use-site-title: false
 ---
 

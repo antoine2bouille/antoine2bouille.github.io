@@ -24,7 +24,7 @@ var cy = cytoscape({
         'line-color': '#CF9E11',
         'target-arrow-color': '#CF9E11'
       })
-    .selector('#genre')
+    .selector('#Horror')
       .css({
         'background-image': '/assets/img/horror_mask.jpg',
         
@@ -33,7 +33,6 @@ var cy = cytoscape({
       .css({
         'background-image': '/assets/img/one.png'
       })
-    
   .selector('#role_2')
       .css({
         'background-image': '/assets/img/two.png'
@@ -48,93 +47,96 @@ var cy = cytoscape({
       })
   .selector('#actor_1')
       .css({
-        'background-image': '/assets/img/di_caprio.webp'
+        'background-image': '/assets/img/actors/horror/aaron_paul.jpeg'
       })
   .selector('#actor_2')
       .css({
-        'background-image': '/assets/img/brad_pitt.jpeg'
-      })
-  .selector('#actor_3')
-      .css({
-        'background-image': '/assets/img/jackman.jpeg'
+        'background-image': '/assets/img/actors/horror/steve_howey.jpeg'
       })
   .selector('#actor_4')
       .css({
-        'background-image': '/assets/img/jolie.jpeg'
+        'background-image': '/assets/img/actors/horror/lili_reinhart.jpeg'
       })
   .selector('#actor_5')
       .css({
-        'background-image': '/assets/img/kruger.jpeg'
-      })
-  .selector('#actor_6')
-      .css({
-        'background-image': '/assets/img/bullock.jpeg'
+        'background-image': '/assets/img/actors/horror/camila_mendes.jpeg'
       })
   .selector('#actor_7')
       .css({
-        'background-image': '/assets/img/holland.jpeg'
+        'background-image': '/assets/img/actors/horror/zac_efron.jpeg'
       })
   .selector('#actor_8')
       .css({
-        'background-image': '/assets/img/butler.jpeg'
-      })
-  .selector('#actor_9')
-      .css({
-        'background-image': '/assets/img/chalamet.jpeg'
+        'background-image': '/assets/img/actors/horror/eric_lloyd.jpeg'
       })
   .selector('#actor_10')
       .css({
-        'background-image': '/assets/img/brad_pitt.jpeg'
+        'background-image': '/assets/img/actors/horror/evangeline_lilly.jpeg'
       })
   .selector('#actor_11')
       .css({
-        'background-image': '/assets/img/holland.jpeg'
+        'background-image': '/assets/img/actors/horror/summer_altice.jpeg'
       })
-  .selector('#actor_12')
+  .selector('#director')
       .css({
-        'background-image': '/assets/img/jackman.jpeg'
+        'background-image': '/assets/img/directors/director_chair.png'
+      })
+  .selector('#director_1')
+      .css({
+        'background-image': '/assets/img/directors/deltoro.jpg'
+      })
+  .selector('#director_2')
+      .css({
+        'background-image': '/assets/img/directors/William_Winckler.jpg'
       }),
+   
    
 
   elements: {
     nodes: [
       
-      { data: { id: 'genre' } },
+      { data: { id: 'Horror' } },
       { data: { id: 'role_1' } },
       { data: { id: 'role_2' } },
       { data: { id: 'role_3' } },
       { data: { id: 'role_4' } },
+      { data: { id: 'director' } },
+      { data: { id: 'director_1' } },
+      { data: { id: 'director_2' } },
       { data: { id: 'actor_1' } },
       { data: { id: 'actor_2' } },
-      { data: { id: 'actor_3' } },
+      //{ data: { id: 'actor_3' } },
       { data: { id: 'actor_4' } },
       { data: { id: 'actor_5' } },
-      { data: { id: 'actor_6' } },
+      //{ data: { id: 'actor_6' } },
       { data: { id: 'actor_7' } },
       { data: { id: 'actor_8' } },
-      { data: { id: 'actor_9' } },
+      //{ data: { id: 'actor_9' } },
       { data: { id: 'actor_10' } },
       { data: { id: 'actor_11' } },
-      { data: { id: 'actor_12' } },
+      //{ data: { id: 'actor_12' } },
     ],
     edges: [
       
-      { data: { source: 'genre', target: 'role_1' } },
-      { data: { source: 'genre', target: 'role_2' } },
-      { data: { source: 'genre', target: 'role_3' } },
-      { data: { source: 'genre', target: 'role_4' } },
+      { data: { source: 'Horror', target: 'role_1' } },
+      { data: { source: 'Horror', target: 'role_2' } },
+      { data: { source: 'Horror', target: 'role_3' } },
+      { data: { source: 'Horror', target: 'role_4' } },
+      { data: { source: 'Horror', target: 'director' } },
+      { data: { source: 'director', target: 'director_1' } },
+      { data: { source: 'director', target: 'director_2' } },
       { data: { source: 'role_1', target: 'actor_1' } },
       { data: { source: 'role_1', target: 'actor_2' } },
-      { data: { source: 'role_1', target: 'actor_3' } },
+      //{ data: { source: 'role_1', target: 'actor_3' } },
       { data: { source: 'role_2', target: 'actor_4' } },
       { data: { source: 'role_2', target: 'actor_5' } },
-      { data: { source: 'role_2', target: 'actor_6' } },
+      //{ data: { source: 'role_2', target: 'actor_6' } },
       { data: { source: 'role_3', target: 'actor_7' } },
       { data: { source: 'role_3', target: 'actor_8' } },
-      { data: { source: 'role_3', target: 'actor_9' } },
+      //{ data: { source: 'role_3', target: 'actor_9' } },
       { data: { source: 'role_4', target: 'actor_10' } },
       { data: { source: 'role_4', target: 'actor_11' } },
-      { data: { source: 'role_4', target: 'actor_12' } }
+      //{ data: { source: 'role_4', target: 'actor_12' } }
       
       
     ]
@@ -152,14 +154,14 @@ function openUrl(url) {
 }
 
 // Attaching click event listeners to 'actor' nodes
-var actorNodes = ['actor_1', 'actor_2', 'actor_3', 'actor_4', 'actor_5', 'actor_6', 'actor_7', 'actor_8', 'actor_9', 'actor_10', 'actor_11', 'actor_12'];
+var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11'];
 actorNodes.forEach(function(actorId) {
   cy.getElementById(actorId).on('click', function() {
     openUrl('https://www.imdb.com/name/nm0000138/?ref_=fn_al_nm_1');
   });
 });
 
-cy.elements('node[id != "genre"]').style({
+cy.elements('node[id != "Horror"]').style({
   'display': 'none',
   'opacity': 0,
   'width': 0,
@@ -188,9 +190,9 @@ function showConnectedNodes(nodeId) {
   node.connectedEdges().style('display', 'element');
 }
 
-// Click event on 'genre' node to show 'role' nodes
-cy.getElementById('genre').on('click', function() {
-  showConnectedNodes('genre');
+// Click event on 'Horror' node to show 'role' nodes
+cy.getElementById('Horror').on('click', function() {
+  showConnectedNodes('Horror');
 });
 
 // Click events on 'role' nodes to show connected nodes
