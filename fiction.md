@@ -95,7 +95,10 @@ The XGBoost model's analysis of the Fiction genre, with an MSE of 0.2645 and a n
   {% include featureimportance_Fiction.html %}
 </div>
 <div style="width: 100%;display: flex; justify-content: center;">
-  {% include featureimportance_Fiction.html %}
+  {% include relationdirectorage_Fiction.html %}
+</div>
+<div style="width: 100%;display: flex; justify-content: center;">
+  {% include relationnummovie_Fiction.html %}
 </div>
 ## Conclusion
 
