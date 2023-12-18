@@ -93,6 +93,18 @@ var cy = cytoscape({
   .selector('#actor_12')
       .css({
         'background-image': '/assets/img/jackman.jpeg'
+      })
+      .selector('#director')
+      .css({
+        'background-image': '/assets/img/directors/director_chair.png'
+      })
+  .selector('#director_1')
+      .css({
+        'background-image': '/assets/img/directors/miyazaki.jpg'
+      })
+  .selector('#director_2')
+      .css({
+        'background-image': '/assets/img/directors/mick_jackson.jpeg'
       }),
    
 
