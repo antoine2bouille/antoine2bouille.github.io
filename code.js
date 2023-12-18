@@ -138,6 +138,9 @@ var cy = cytoscape({
       { data: { source: 'genre', target: 'role_2' } },
       { data: { source: 'genre', target: 'role_3' } },
       { data: { source: 'genre', target: 'role_4' } },
+      { data: { source: 'genre', target: 'director' } },
+      { data: { source: 'director', target: 'director_1' } },
+      { data: { source: 'director', target: 'director_2' } },
       { data: { source: 'role_1', target: 'actor_1' } },
       { data: { source: 'role_1', target: 'actor_2' } },
       //{ data: { source: 'role_1', target: 'actor_3' } },
@@ -167,7 +170,7 @@ function openUrl(url) {
 }
 
 // Attaching click event listeners to 'actor' nodes
-var actorNodes = ['actor_1', 'actor_2', 'actor_3', 'actor_4', 'actor_5', 'actor_6', 'actor_7', 'actor_8', 'actor_9', 'actor_10', 'actor_11', 'actor_12'];
+var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11'];
 actorNodes.forEach(function(actorId) {
   cy.getElementById(actorId).on('click', function() {
     openUrl('https://www.imdb.com/name/nm0000138/?ref_=fn_al_nm_1');
@@ -209,7 +212,7 @@ cy.getElementById('genre').on('click', function() {
 });
 
 // Click events on 'role' nodes to show connected nodes
-['role_1', 'role_2', 'role_3', 'role_4'].forEach(function(roleId) {
+['role_1', 'role_2', 'role_3', 'role_4', 'director'].forEach(function(roleId) {
   cy.getElementById(roleId).on('click', function() {
     showConnectedNodes(roleId);
   });
