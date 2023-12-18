@@ -23,7 +23,6 @@ Narratives in drama films frequently examine the complexities of family dynamics
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include map_Drama.html %}
 </div>
-
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include maplangue_Drama.html %}
 </div>
@@ -41,19 +40,27 @@ Machine learning, and specifically the use of CatBoost here, is crucial because 
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">MSE (Mean Squared Error)</td>
-            <td style="border: 1px solid black; padding: 8px;">0.14296481470156197</td>
+            <td style="border: 1px solid black; padding: 8px;">0.146298</td>
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">RMSE (Root Mean Squared Error)</td>
-            <td style="border: 1px solid black; padding: 8px;">0.378106882642411</td>
+            <td style="border: 1px solid black; padding: 8px;">0.382490</td>
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">R² (R-squared)</td>
-            <td style="border: 1px solid black; padding: 8px;">0.034469731152307004</td>
+            <td style="border: 1px solid black; padding: 8px;">0.011954</td>
         </tr>
     </table>
 </div>
-
+We harnessed the power of linear regression in order to find the optimal runtime.
+<div style="width:50%; margin-left: auto; margin-right: auto;">
+    <table style="width:100%; border: 1px solid black; border-collapse: collapse;">
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black; padding: 8px;">Optimal Runtime</th>
+            <th style="border: 1px solid black; padding: 8px;">134.95 minutes</th>
+        </tr>
+    </table>
+</div>
 ## Basic graphs
 
 ## Optimized casting
@@ -63,10 +70,28 @@ We harnessed the power of a machine learning algorithm to identify the most suit
 <div style="width: 100%;display: flex; justify-content: center;">
   <a href="/cast.html"><img src="/assets/img/casting.png" alt="cast" style="width:512px;height:512px;border-radius: 30px;"></a>
 </div>
+The XGBoost model's, from the boosted tree algorithms family, analysis of the Drama genre is valuable for its genre-specific insights and feature importance analysis. These aspects make it a useful tool for informed decision-making in film production, particularly in casting and understanding key success factors in the Fiction genre.
 
+<div style="width: 110%;display: flex; justify-content: center;">
+  {% include featureimportance_Drama.html %}
+</div>
+<div style="width: 110%;display: flex; justify-content: center;">
+  {% include actorimportance_Drama.html %}
+</div>
+<div style="width: 100%;display: flex; justify-content: center;">
+  {% include relationdirectorage_Drama.html %}
+</div>
+<div style="width: 100%;display: flex; justify-content: center;">
+  {% include relationnummovie_Drama.html %}
+</div>
 
 
 ## Conclusion
 Summarize the key takeaways for filmmakers aspiring to create impactful drama movies, combining financial success with critical acclaim.
     
   
+
+
+
+
+

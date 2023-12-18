@@ -74,10 +74,13 @@ We harnessed the power of a machine learning algorithm to identify the most suit
 <div style="width: 100%;display: flex; justify-content: center;">
   <a href="/fiction_cast.html"><img src="/assets/img/casting.png" alt="cast" style="width:512px;height:512px;border-radius: 30px;"></a>
 </div>
-The XGBoost model's analysis of the Fiction genre, with an MSE of 0.2645 and a negative R², suggests moderate predictive accuracy. Despite the low R² indicating room for improvement in variance explanation, the model is valuable for its genre-specific insights and feature importance analysis. These aspects make it a useful tool for informed decision-making in film production, particularly in casting and understanding key success factors in the Fiction genre
+The XGBoost model's, from the boosted tree algorithms family, analysis of the Fiction genre is valuable for its genre-specific insights and feature importance analysis. These aspects make it a useful tool for informed decision-making in film production, particularly in casting and understanding key success factors in the Fiction genre.
 
-<div style="width: 90%;display: flex; justify-content: center;">
+<div style="width: 110%;display: flex; justify-content: center;">
   {% include featureimportance_Fiction.html %}
+</div>
+<div style="width: 110%;display: flex; justify-content: center;">
+  {% include actorimportance_Fiction.html %}
 </div>
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationdirectorage_Fiction.html %}
