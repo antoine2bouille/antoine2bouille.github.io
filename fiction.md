@@ -43,15 +43,15 @@ Machine learning, and specifically the use of CatBoost here, is crucial because 
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">MSE (Mean Squared Error)</td>
-            <td style="border: 1px solid black; padding: 8px;">0.05640411103602283</td>
+            <td style="border: 1px solid black; padding: 8px;">0.131265</td>
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">RMSE (Root Mean Squared Error)</td>
-            <td style="border: 1px solid black; padding: 8px;">0.23749549687525198</td>
+            <td style="border: 1px solid black; padding: 8px;">0.362305</td>
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">R² (R-squared)</td>
-            <td style="border: 1px solid black; padding: 8px;">0.018153797720612763</td>
+            <td style="border: 1px solid black; padding: 8px;">0.020693</td>
         </tr>
     </table>
 </div>
@@ -75,23 +75,8 @@ We harnessed the power of a machine learning algorithm to identify the most suit
   <a href="/fiction_cast.html"><img src="/assets/img/casting.png" alt="cast" style="width:512px;height:512px;border-radius: 30px;"></a>
 </div>
 The XGBoost model's analysis of the Fiction genre, with an MSE of 0.2645 and a negative R², suggests moderate predictive accuracy. Despite the low R² indicating room for improvement in variance explanation, the model is valuable for its genre-specific insights and feature importance analysis. These aspects make it a useful tool for informed decision-making in film production, particularly in casting and understanding key success factors in the Fiction genre
-<div style="margin:auto; width:50%;">
-    <table style="width:100%; border: 1px solid black; border-collapse: collapse;">
-        <tr style="border: 1px solid black;">
-            <th style="border: 1px solid black; padding: 8px;">Metric</th>
-            <th style="border: 1px solid black; padding: 8px;">Value</th>
-        </tr>
-        <tr style="border: 1px solid black;">
-            <td style="border: 1px solid black; padding: 8px;">MSE (Mean Squared Error)</td>
-            <td style="border: 1px solid black; padding: 8px;">0.26452005589676475</td>
-         </tr>
-        <tr style="border: 1px solid black;">
-            <td style="border: 1px solid black; padding: 8px;">R² (R-squared)</td>
-            <td style="border: 1px solid black; padding: 8px;">-0.05428442316407733</td>
-        </tr>
-    </table>
-</div>
-<div style="width: 100%;display: flex; justify-content: center;">
+
+<div style="width: 90%;display: flex; justify-content: center;">
   {% include featureimportance_Fiction.html %}
 </div>
 <div style="width: 100%;display: flex; justify-content: center;">
