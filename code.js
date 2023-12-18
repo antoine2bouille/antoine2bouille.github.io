@@ -153,14 +153,14 @@ function openUrl(url) {
   window.open(url, '_blank'); // '_blank' opens the URL in a new tab
 }
 var nconsts = {
-    'actor_1': 'nm1086543',
+    'actor_1': 'nm2403277',
     'actor_2': 'nm0271657',
     'actor_4': 'nm0001467',
     'actor_5': 'nm0269463',
     'actor_7': 'nm0000154',
     'actor_8': 'nm0000243',
-    'actor_10': 'nm5611121',
-    'actor_11': 'nm5611122',
+    'actor_10': 'nm4972453',
+    'actor_11': 'nm2080328',
     'director_1': 'nm0000095',
     'director_2': 'nm0000631'
 };
@@ -236,7 +236,7 @@ cy.getElementById('Drama').on('click', function() {
 
 cy.on('mouseover', 'node', function(event){
   var node = event.target;
-  var nodeName = node.id();
+  var nodeName = names[node.id()];
   var nodePosition = node.renderedPosition();
 
   // create a div element to use as a tooltip
