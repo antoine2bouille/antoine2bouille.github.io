@@ -27,6 +27,19 @@ Narratives in drama films frequently examine the complexities of family dynamics
   {% include maplangue_Drama.html %}
 </div>
 The use of a CatBoost machine learning model is useful to discover what factors contribute to a film's success. The model is trained to understand the impact of various features like language and country of release on a movie's performance. Once trained, the model's feature importance reveals that certain languages and countries are more predictive of success.
+<div style="margin:auto; width:50%;">
+    <table style="width:100%; border: 1px solid black; border-collapse: collapse;">
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black; padding: 8px;">Training Set</th>
+            <th style="border: 1px solid black; padding: 8px;">Testing Set</th>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black; padding: 8px;">12892 data points</td>
+            <td style="border: 1px solid black; padding: 8px;">3223 data points</td>
+        </tr>
+        
+    </table>
+</div>
 
 The visualizations you see are a direct result of this analysis. The world map colors certain countries to signify their importance, while the bar chart ranks languages by their influence on movie success, as determined by the model. These insights are pivotal for strategic decisions in the film industry, such as choosing a language for a movie or selecting a country for release, to maximize the chances of a film's success.
 
@@ -70,7 +83,7 @@ We harnessed the power of a machine learning algorithm to identify the most suit
 <div style="width: 100%;display: flex; justify-content: center;">
   <a href="/cast.html"><img src="/assets/img/casting.png" alt="cast" style="width:512px;height:512px;border-radius: 30px;"></a>
 </div>
-The XGBoost model's, from the boosted tree algorithms family, analysis of the Drama genre is valuable for its genre-specific insights and feature importance analysis. These aspects make it a useful tool for informed decision-making in film production, particularly in casting and understanding key success factors in the Fiction genre.
+The XGBoost model's, from the boosted tree algorithms family, analysis of the Drama genre is valuable for its genre-specific insights and feature importance analysis. These aspects make it a useful tool for informed decision-making in film production, particularly in casting and understanding key success factors in the Drama genre.
 
 <div style="width: 110%;display: flex; justify-content: center;">
   {% include featureimportance_Drama.html %}
