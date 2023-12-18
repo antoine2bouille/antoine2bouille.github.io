@@ -93,6 +93,18 @@ var cy = cytoscape({
   .selector('#actor_12')
       .css({
         'background-image': '/assets/img/jackman.jpeg'
+      })
+      .selector('#director')
+      .css({
+        'background-image': '/assets/img/directors/director_chair.png'
+      })
+  .selector('#director_1')
+      .css({
+        'background-image': '/assets/img/directors/miyazaki.jpg'
+      })
+  .selector('#director_2')
+      .css({
+        'background-image': '/assets/img/directors/mick_jackson.jpeg'
       }),
    
 
@@ -104,6 +116,9 @@ var cy = cytoscape({
       { data: { id: 'role_2' } },
       { data: { id: 'role_3' } },
       { data: { id: 'role_4' } },
+      { data: { id: 'director' } },
+      { data: { id: 'director_1' } },
+      { data: { id: 'director_2' } },
       { data: { id: 'actor_1' } },
       { data: { id: 'actor_2' } },
       //{ data: { id: 'actor_3' } },
@@ -123,6 +138,9 @@ var cy = cytoscape({
       { data: { source: 'Family', target: 'role_2' } },
       { data: { source: 'Family', target: 'role_3' } },
       { data: { source: 'Family', target: 'role_4' } },
+      { data: { source: 'Family', target: 'director' } },
+      { data: { source: 'director', target: 'director_1' } },
+      { data: { source: 'director', target: 'director_2' } },
       { data: { source: 'role_1', target: 'actor_1' } },
       { data: { source: 'role_1', target: 'actor_2' } },
       //{ data: { source: 'role_1', target: 'actor_3' } },
@@ -194,7 +212,7 @@ cy.getElementById('Family').on('click', function() {
 });
 
 // Click events on 'role' nodes to show connected nodes
-['role_1', 'role_2', 'role_3', 'role_4'].forEach(function(roleId) {
+['role_1', 'role_2', 'role_3', 'role_4', 'director'].forEach(function(roleId) {
   cy.getElementById(roleId).on('click', function() {
     showConnectedNodes(roleId);
   });
