@@ -101,6 +101,8 @@ var cy = cytoscape({
       { data: { id: 'role_3' } },
       { data: { id: 'role_4' } },
       { data: { id: 'director' } },
+      { data: { id: 'director_1' } },
+      { data: { id: 'director_2' } },
       { data: { id: 'actor_1' } },
       { data: { id: 'actor_2' } },
       //{ data: { id: 'actor_3' } },
