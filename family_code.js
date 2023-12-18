@@ -156,7 +156,23 @@ var cy = cytoscape({
 function openUrl(url) {
   window.open(url, '_blank'); // '_blank' opens the URL in a new tab
 }
-
+var names = {
+  'director': 'Director',
+  'role_1': 'Role 1',
+  'role_2': 'Role 2',
+  'role_3': 'Role 3',
+  'role_4': 'Role 4',
+  'actor_1': 'Millie Bobby Brown',
+  'actor_2': 'Landry Bender',
+  'actor_4': 'Elliot Page',
+  'actor_5': 'Spencer Breslin',
+  'actor_7': 'Bailee Madison',
+  'actor_8': 'Ariel Winter',
+  'actor_10': 'Cillian Murphy',
+  'actor_11': 'David Harbour',
+  'director_1': 'Hayao Miyazaki',
+  'director_2': 'Mick Jackson'
+};
 // Attaching click event listeners to 'actor' nodes
 var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11', 'director_1', 'director_2'];
 actorNodes.forEach(function(actorId) {
