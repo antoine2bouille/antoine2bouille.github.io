@@ -48,11 +48,11 @@ var cy = cytoscape({
       })
   .selector('#actor_1')
       .css({
-        'background-image': '/assets/img/di_caprio.webp'
+        'background-image': '/assets/img/family/millie_bobby_brown.jpeg'
       })
   .selector('#actor_2')
       .css({
-        'background-image': '/assets/img/brad_pitt.jpeg'
+        'background-image': '/assets/img/family/landry_bender.jpeg'
       })
   .selector('#actor_3')
       .css({
@@ -60,11 +60,11 @@ var cy = cytoscape({
       })
   .selector('#actor_4')
       .css({
-        'background-image': '/assets/img/jolie.jpeg'
+        'background-image': '/assets/img/family/elliot_page.webp'
       })
   .selector('#actor_5')
       .css({
-        'background-image': '/assets/img/kruger.jpeg'
+        'background-image': '/assets/img/family/spencer_breslin.webp'
       })
   .selector('#actor_6')
       .css({
@@ -72,11 +72,11 @@ var cy = cytoscape({
       })
   .selector('#actor_7')
       .css({
-        'background-image': '/assets/img/holland.jpeg'
+        'background-image': '/assets/img/family/bailee_madison.jpeg'
       })
   .selector('#actor_8')
       .css({
-        'background-image': '/assets/img/butler.jpeg'
+        'background-image': '/assets/img/family/ariel_winter.jpeg'
       })
   .selector('#actor_9')
       .css({
@@ -84,11 +84,11 @@ var cy = cytoscape({
       })
   .selector('#actor_10')
       .css({
-        'background-image': '/assets/img/brad_pitt.jpeg'
+        'background-image': '/assets/img/family/Cillian_Murphy.jpeg'
       })
   .selector('#actor_11')
       .css({
-        'background-image': '/assets/img/holland.jpeg'
+        'background-image': '/assets/img/family/david_harbour.webp'
       })
   .selector('#actor_12')
       .css({
@@ -106,16 +106,16 @@ var cy = cytoscape({
       { data: { id: 'role_4' } },
       { data: { id: 'actor_1' } },
       { data: { id: 'actor_2' } },
-      { data: { id: 'actor_3' } },
+      //{ data: { id: 'actor_3' } },
       { data: { id: 'actor_4' } },
       { data: { id: 'actor_5' } },
-      { data: { id: 'actor_6' } },
+      //{ data: { id: 'actor_6' } },
       { data: { id: 'actor_7' } },
       { data: { id: 'actor_8' } },
-      { data: { id: 'actor_9' } },
+      //{ data: { id: 'actor_9' } },
       { data: { id: 'actor_10' } },
       { data: { id: 'actor_11' } },
-      { data: { id: 'actor_12' } },
+      //{ data: { id: 'actor_12' } },
     ],
     edges: [
       
@@ -125,16 +125,16 @@ var cy = cytoscape({
       { data: { source: 'Family', target: 'role_4' } },
       { data: { source: 'role_1', target: 'actor_1' } },
       { data: { source: 'role_1', target: 'actor_2' } },
-      { data: { source: 'role_1', target: 'actor_3' } },
+      //{ data: { source: 'role_1', target: 'actor_3' } },
       { data: { source: 'role_2', target: 'actor_4' } },
       { data: { source: 'role_2', target: 'actor_5' } },
-      { data: { source: 'role_2', target: 'actor_6' } },
+      //{ data: { source: 'role_2', target: 'actor_6' } },
       { data: { source: 'role_3', target: 'actor_7' } },
       { data: { source: 'role_3', target: 'actor_8' } },
-      { data: { source: 'role_3', target: 'actor_9' } },
+      //{ data: { source: 'role_3', target: 'actor_9' } },
       { data: { source: 'role_4', target: 'actor_10' } },
       { data: { source: 'role_4', target: 'actor_11' } },
-      { data: { source: 'role_4', target: 'actor_12' } }
+      //{ data: { source: 'role_4', target: 'actor_12' } }
       
       
     ]
@@ -152,7 +152,7 @@ function openUrl(url) {
 }
 
 // Attaching click event listeners to 'actor' nodes
-var actorNodes = ['actor_1', 'actor_2', 'actor_3', 'actor_4', 'actor_5', 'actor_6', 'actor_7', 'actor_8', 'actor_9', 'actor_10', 'actor_11', 'actor_12'];
+var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11'];
 actorNodes.forEach(function(actorId) {
   cy.getElementById(actorId).on('click', function() {
     openUrl('https://www.imdb.com/name/nm0000138/?ref_=fn_al_nm_1');
