@@ -96,7 +96,7 @@ var cy = cytoscape({
       })
   .selector('#director')
       .css({
-        'background-image': '/assets/img/jackman.jpeg'
+        'background-image': '/assets/img/directors/director_chair.png'
       })
   .selector('#director_1')
       .css({
