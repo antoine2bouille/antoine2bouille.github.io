@@ -165,6 +165,19 @@ var nconsts = {
   "director_1": "nm0000631",
   "director_2": "nm0004838"
 }
+
+var names = {
+  "actor_1": "Katheryn Winnick",
+  "actor_2": "Anna Torv",
+  "actor_4": "Jay Hernandez",
+  "actor_5": "John Cena",
+  "actor_7": "Sissy Spacek",
+  "actor_8": "Jessica Lange",
+  "actor_10": "Hailee Steinfeld",
+  "actor_11": "Madison Iseman",
+  "director_1": "Ridley Scott",
+  "director_2": "Martha Coolidge"
+}
 // Attaching click event listeners to 'actor' nodes
 var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11', 'director_1', 'director_2'];
 actorNodes.forEach(function(actorId) {
@@ -217,7 +230,7 @@ cy.getElementById('Science-Fiction').on('click', function() {
 
 cy.on('mouseover', 'node', function(event){
   var node = event.target;
-  var nodeName = node.id();
+  var nodeName = names[node.id()];
   var nodePosition = node.renderedPosition();
 
   // create a div element to use as a tooltip
