@@ -76,7 +76,7 @@ var cy = cytoscape({
       })
   .selector('#actor_11')
       .css({
-        'background-image': '/assets/img/actors/drama/kelsey_asbille.jpeg'
+        'background-image': '/assets/img/actors/drama/kelsey_asbille.webp'
       })
   .selector('#director')
       .css({
@@ -84,11 +84,11 @@ var cy = cytoscape({
       })
   .selector('#director_1')
       .css({
-        'background-image': '/assets/img/directors/miyazaki.jpg'
+        'background-image': '/assets/img/directors/woody_allen.jpg'
       })
   .selector('#director_2')
       .css({
-        'background-image': '/assets/img/directors/mick_jackson.jpeg'
+        'background-image': '/assets/img/directors/ridley_scott.jpeg'
       }),
    
 
