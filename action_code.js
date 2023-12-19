@@ -48,51 +48,47 @@ var cy = cytoscape({
       })
   .selector('#actor_1')
       .css({
-        'background-image': '/assets/img/di_caprio.webp'
+        'background-image': '/assets/img/actors/action/landry_bender.jpeg'
       })
   .selector('#actor_2')
       .css({
-        'background-image': '/assets/img/brad_pitt.jpeg'
-      })
-  .selector('#actor_3')
-      .css({
-        'background-image': '/assets/img/jackman.jpeg'
+        'background-image': '/assets/img/actors/action/joey_king.jpeg'
       })
   .selector('#actor_4')
       .css({
-        'background-image': '/assets/img/jolie.jpeg'
+        'background-image': '/assets/img/actors/action/meryl_streep.jpeg'
       })
   .selector('#actor_5')
       .css({
-        'background-image': '/assets/img/kruger.jpeg'
-      })
-  .selector('#actor_6')
-      .css({
-        'background-image': '/assets/img/bullock.jpeg'
+        'background-image': '/assets/img/actors/action/debra_winger.jpeg'
       })
   .selector('#actor_7')
       .css({
-        'background-image': '/assets/img/holland.jpeg'
+        'background-image': '/assets/img/di_caprio.webp'
       })
   .selector('#actor_8')
       .css({
-        'background-image': '/assets/img/butler.jpeg'
-      })
-  .selector('#actor_9')
-      .css({
-        'background-image': '/assets/img/chalamet.jpeg'
+        'background-image': '/assets/img/actors/action/christian_bale.jpeg'
       })
   .selector('#actor_10')
       .css({
-        'background-image': '/assets/img/brad_pitt.jpeg'
+        'background-image': '/assets/img/actors/action/nick_robinson.jpeg'
       })
   .selector('#actor_11')
       .css({
-        'background-image': '/assets/img/holland.jpeg'
+        'background-image': '/assets/img/actors/action/kj_apa.jpeg'
       })
-  .selector('#actor_12')
+  .selector('#director')
       .css({
-        'background-image': '/assets/img/jackman.jpeg'
+        'background-image': '/assets/img/directors/director_chair.png'
+      })
+  .selector('#director_1')
+      .css({
+        'background-image': '/assets/img/directors/john_irvin.jpg'
+      })
+  .selector('#director_2')
+      .css({
+        'background-image': '/assets/img/directors/philip_noyce.jpeg'
       }),
    
 
@@ -104,18 +100,21 @@ var cy = cytoscape({
       { data: { id: 'role_2' } },
       { data: { id: 'role_3' } },
       { data: { id: 'role_4' } },
+      { data: { source: 'genre', target: 'director' } },
+      { data: { source: 'director', target: 'director_1' } },
+      { data: { source: 'director', target: 'director_2' } },
       { data: { id: 'actor_1' } },
       { data: { id: 'actor_2' } },
-      { data: { id: 'actor_3' } },
+      //{ data: { id: 'actor_3' } },
       { data: { id: 'actor_4' } },
       { data: { id: 'actor_5' } },
-      { data: { id: 'actor_6' } },
+      //{ data: { id: 'actor_6' } },
       { data: { id: 'actor_7' } },
       { data: { id: 'actor_8' } },
-      { data: { id: 'actor_9' } },
+      //{ data: { id: 'actor_9' } },
       { data: { id: 'actor_10' } },
       { data: { id: 'actor_11' } },
-      { data: { id: 'actor_12' } },
+      //{ data: { id: 'actor_12' } },
     ],
     edges: [
       
@@ -125,16 +124,16 @@ var cy = cytoscape({
       { data: { source: 'genre', target: 'role_4' } },
       { data: { source: 'role_1', target: 'actor_1' } },
       { data: { source: 'role_1', target: 'actor_2' } },
-      { data: { source: 'role_1', target: 'actor_3' } },
+      //{ data: { source: 'role_1', target: 'actor_3' } },
       { data: { source: 'role_2', target: 'actor_4' } },
       { data: { source: 'role_2', target: 'actor_5' } },
-      { data: { source: 'role_2', target: 'actor_6' } },
+      //{ data: { source: 'role_2', target: 'actor_6' } },
       { data: { source: 'role_3', target: 'actor_7' } },
       { data: { source: 'role_3', target: 'actor_8' } },
-      { data: { source: 'role_3', target: 'actor_9' } },
+      //{ data: { source: 'role_3', target: 'actor_9' } },
       { data: { source: 'role_4', target: 'actor_10' } },
       { data: { source: 'role_4', target: 'actor_11' } },
-      { data: { source: 'role_4', target: 'actor_12' } }
+      //{ data: { source: 'role_4', target: 'actor_12' } }
       
       
     ]
@@ -152,16 +151,16 @@ function openUrl(url) {
 }
 
 var nconsts = {
-  "actor_1": "nm0000138",
-  "actor_2": "nm0000093",
-  "actor_4": "nm0000656",
-  "actor_5": "nm0000704",
+  "actor_1": "nm4085883",
+  "actor_2": "nm1428821",
+  "actor_4": "nm0000658",
+  "actor_5": "nm0000700",
   "actor_7": "nm0000138",
-  "actor_8": "",
-  "actor_10": "",
-  "actor_11": "",
-  "director_1": "",
-  "director_2": ""
+  "actor_8": "nm0000288",
+  "actor_10": "nm3538718",
+  "actor_11": "nm6216001",
+  "director_1": "nm0410139",
+  "director_2": "nm0637518"
 }
 
 var names = {
