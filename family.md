@@ -25,9 +25,14 @@ Family films are centered on heartwarming stories that emphasize familial relati
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include map_Family.html %}
 </div>
+The map highlights key markets for film release, with the United States, Canada, Italy, Japan, Czech Republic, and India marked as top countries. As a producer, targeting these countries for your drama film's release could enhance its commercial success due to their significant market potential for the genre.
+
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include maplangue_Family.html %}
 </div>
+
+The language importance bar chart indicates that Hindi, English, Malayalam, Malay, and Japanese are influential for drama films' success. A producer should consider these languages for localizing the film, potentially increasing its accessibility and appeal to a broad international audience.
+
 The use of a CatBoost machine learning model is useful to discover what factors contribute to a film's success. The model is trained to understand the impact of various features like language and country of release on a movie's performance. Once trained, the model's feature importance reveals that certain languages and countries are more predictive of success. The model is trained over 5012 data points and tested over 1253 data points.
 
 <div style="margin:auto; width:50%;">
