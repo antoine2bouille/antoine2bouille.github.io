@@ -226,7 +226,7 @@ cy.getElementById('genre').on('click', function() {
 });
 
 // Click events on 'role' nodes to show connected nodes
-['role_1', 'role_2', 'role_3', 'role_4'].forEach(function(roleId) {
+['role_1', 'role_2', 'role_3', 'role_4', 'director'].forEach(function(roleId) {
   cy.getElementById(roleId).on('click', function() {
     showConnectedNodes(roleId);
   });
