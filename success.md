@@ -19,7 +19,7 @@ full-width-genres: true
 
 In a landscape where the art of filmmaking meets the science of market success, movie producers often find themselves at a crossroads. The goal is to create a cinematic experience that not only resonates with audiences emotionally by getting good ratings and reviews but also performs exceptionally at the box office. Achieving this dual triumph of critical acclaim and financial success is no small feat in the competitive terrain of the film industry.
 
-To aid producers in this challenge, we’ve crafted a cutting-edge tool, an interface that simplifies the complexity of movie-making variables. It empowers producers to fine-tune key elements that can elevate a film’s potential for success. By selecting a genre from the top-tier favorites, producers can explore a variety of influential factors, including:
+To aid producers in this challenge, we’ve crafted a tool, an interface that simplifies the complexity of movie-making variables. It empowers producers to fine-tune key elements that can elevate a film’s potential for success. By selecting a genre from the top-tier favorites, producers can explore a variety of influential factors, including:
 
 - Optimal Runtime: Finding the sweet spot for a film’s length to keep audiences engaged from opening credits to the final scene.
 - Directorial Vision: Aligning the project with directors whose previous works and stylistic flair have proven successful within the genre.
@@ -36,22 +36,23 @@ This tool is more than just a repository of data; it’s an analytical engine th
 
 Our approach melds industry know-how with a predictive analytics model, offering strategic guidance rooted in a comprehensive understanding of what has historically succeeded. This is a new horizon in filmmaking—where informed decisions lead the way, and producers are equipped with the knowledge to create films that are not only seen and loved by many but also stand as testaments to the power of storytelling. 
 
-## What is the story behind the dataset at our disposal?
+## Let's start the journey!
 
-### How do rating and revenue vary as a function of the genre
+Before delving right into genre-specific analyses in the film industry, we need to address some fundamental questions to highlight the general trends of the data at out disposal and highlight the 5 main genres. Firstly, we'll explore how genre influences a film's ratings and revenue, wich provides insights into the commercial and critical success of different genres. Next, we'll examine the relationship between winning awards and a film's box office performance. It is primordial to understand the commercial impact of critical acclaim. Additionally, we'll investigate the correlation between a movie's runtime and its likelihood of receiving awards, offering valuable guidance for film production. These initial inquiries lay the groundwork for more detailed, genre-focused analysis.
+
+
+### How do rating and revenue vary as a function of the genre?
 
 **Distribution of movie ratings across genres**
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include distribution_of_movie_ratings_across_genres.html %}
 </div>
 
-The distribution plots illustrate that movie ratings across genres tend to follow a Gaussian or normal distribution, with most ratings clustering around the mean. Each genre shows a distinct peak, with 'Drama' having the most substantial number of movies. The spread of the distributions indicates the variability of ratings within each genre. We can see that Drama, Comedy, Thriller/Action and Romance are the top genres in the world! 
+The distribution plots illustrate that movie ratings across genres tend to follow a Gaussian or normal distribution, with most ratings clustering around the mean. Each genre shows a distinct peak, with 'Drama' having the most substantial number of movies. The spread of the distributions indicates the variability of ratings within each genre. We can see that Drama, Comedy, Thriller/Action and Romance are the top genres in the world! We will detail for each of those 5 genres what are the main things to implement in a movie in order to make it successful. 
 
 ### Which relation between the screentime and the opportunity to win an award?
 
 **Distribution of movie runtime for all awarded movies**
-
-
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include distribution_of_movie_runtime_by_award_status.html %}
 </div>
@@ -206,3 +207,5 @@ This collection of plots illustrates the profit distribution of movies across di
 </div>
 This box plot presents the distribution of box office revenue by genre, showing the median, interquartile range, and outliers.
 Drama and family genres have lower median revenues but a wide range of outcomes, as indicated by the long whiskers and outliers. This variability could reflect a mix of low-budget dramas and high-grossing family blockbusters. Action/Adventure and Fiction have higher medians and less variability compared to Drama and Family, suggesting these genres are more consistently high-earning. Other genres show a lower median but also have a considerable spread, which could include niche films with both low and unexpectedly high revenues. Understanding the revenue distribution by genre can inform producers and investors about the potential financial risk and return associated with different types of movies.
+
+## Now that the context is set, Pick on of the top 5 genre at the beginning of this page and discover how to make the best movie!
