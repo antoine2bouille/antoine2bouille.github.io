@@ -26,9 +26,12 @@ Futuristic environments and superior technologies drive inventive storytelling i
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include map_Fiction.html %}
 </div>
+The map highlights key markets for film release, with the United States, Mexico, South Africa, Japan, Spain, and Soviet Union marked as top countries. As a producer, targeting these countries for your drama film's release could enhance its commercial success due to their significant market potential for the genre.
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include maplangue_Fiction.html %}
 </div>
+The language importance bar chart indicates that Japanese, English, Russian, Italian, and Hindi are influential for drama films' success. A producer should consider these languages for localizing the film, potentially increasing its accessibility and appeal to a broad international audience.
+
 The use of a CatBoost machine learning model is useful to discover what factors contribute to a film's success. The model is trained to understand the impact of various features like language and country of release on a movie's performance. Once trained, the model's feature importance reveals that certain languages and countries are more predictive of success.
 
 <div style="margin:auto; width:50%;">
@@ -93,6 +96,7 @@ The XGBoost model's, from the boosted tree algorithms family, analysis of the Fi
 <div style="width: 110%;display: flex; justify-content: center;">
   {% include featureimportance_Fiction.html %}
 </div>
+
 <div style="width: 110%;display: flex; justify-content: center;">
   {% include actorimportance_Fiction.html %}
 </div>
