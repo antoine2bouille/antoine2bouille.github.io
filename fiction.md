@@ -96,17 +96,24 @@ The XGBoost model's, from the boosted tree algorithms family, analysis of the Fi
 <div style="width: 110%;display: flex; justify-content: center;">
   {% include featureimportance_Fiction.html %}
 </div>
+It suggest that gender diversity within the cast holds notable importance in the success of fiction films. For producers, this implies a strategic need to focus on casting decisions that ensure a balanced representation of genders across the main roles to resonate with a diverse audience.
 
 <div style="width: 110%;display: flex; justify-content: center;">
   {% include actorimportance_Fiction.html %}
 </div>
+This indicates that the age of actors and the number of roles they have are meaningful for a film's success. It implies that blending young energy with the experienced actors, and giving them a substantial number of roles, can contribute positively to the film's performance.
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationdirectorage_Fiction.html %}
 </div>
+This reveals that there is no clear correlation, suggesting that success in this genre is not strongly age-dependent but might be influenced by other factors such as genre-specific expertise or storytelling ability.
+
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationnummovie_Fiction.html %}
 </div>
+Having a vast number of movies in a director's filmography does not assure success in fiction films. It may hint at an optimal range of experience that is conducive to success, suggesting that producers should look for directors with substantial but not overwhelming experience.
+
 ## Conclusion
 
+For a hit science fiction movie, aim to tell a story that takes viewers to new worlds filled with cool tech and adventure. Choose places like the US, Japan, and Russia to show your movie, and use languages like English and Japanese to reach lots of people. Make sure your cast includes both men and women of different ages. Work with directors who have some experience but still have new ideas. Keep the movie not too long, around 118 minutes, to keep it exciting from start to finish. Follow these tips, and you might just make the next big sci-fi movie everyone talks about.
     
   
