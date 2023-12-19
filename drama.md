@@ -11,12 +11,14 @@ use-site-title: false
 
 ## Overview
 Drama is a type of narrative fiction or non-fiction that emphasizes tension between characters, conflict and emotion. Drama is a popular and adaptable genre in the film industry, presenting a wide variety of stories and subjects. If DiCaprio's death in Titanic stirred your emotions too, then browse this page to find out more about what lies behind these emotionally-charged films!
+This page will give you all the insights bout what to include in your drama movie ranging from the plot or the language the film should be played in to the perfect cast to be hired in order for the film to achieve enormous succes!
 
 
-## Common words and themes in movie plots
+## Common words and themes in dramatic movie plots
 ![Drama Wordcloud](/assets/img/wordclouds/empath/Drama_wordcloud.png)
 
 Narratives in drama films frequently examine the complexities of family dynamics, depicting the impact of key life events such as weddings, births, and deaths. Negative emotions, crime, and imprisonment are prominent themes that lend suspense to the plot. The genre investigates societal concerns like as conflict and leadership dynamics inside families or larger contexts. While work and business are highlighted, moments of pleasant feeling provide glimpses of hope in the midst of adversity. Drama films, which contain both personal and societal issues, provide a platform for portraying stories that capture the nuances of human lives.
+
 
 
 ## Regressions
