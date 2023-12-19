@@ -208,4 +208,9 @@ This collection of plots illustrates the profit distribution of movies across di
 This box plot presents the distribution of box office revenue by genre, showing the median, interquartile range, and outliers.
 Drama and family genres have lower median revenues but a wide range of outcomes, as indicated by the long whiskers and outliers. This variability could reflect a mix of low-budget dramas and high-grossing family blockbusters. Action/Adventure and Fiction have higher medians and less variability compared to Drama and Family, suggesting these genres are more consistently high-earning. Other genres show a lower median but also have a considerable spread, which could include niche films with both low and unexpectedly high revenues. Understanding the revenue distribution by genre can inform producers and investors about the potential financial risk and return associated with different types of movies.
 
-## Now that the context is set, Pick on of the top 5 genre at the beginning of this page and discover how to make the best movie!
+## Now that the context is set, pick one of the top 5 genre at the beginning of this page and discover how to make the best movie!
+<div style="width: 100%;display: flex; justify-content: center;">
+<a href = "https://www.imdb.com/title/tt6450804/">
+  <img src="/assets/img/memeintrochoisi.jpeg" alt="Movie producer meme" style="width: 400px; height: 400px; border-radius: 10px;">
+</a>
+</div>
