@@ -11,7 +11,11 @@ full-width-genres: true
 
 ---
 
-## Introduction
+<div align="center">
+  
+### Introduction
+</div>
+
 
 In a landscape where the art of filmmaking meets the science of market success, movie producers often find themselves at a crossroads. The goal is to create a cinematic experience that not only resonates with audiences emotionally by getting good ratings and reviews but also performs exceptionally at the box office. Achieving this dual triumph of critical acclaim and financial success is no small feat in the competitive terrain of the film industry.
 
