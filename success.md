@@ -211,6 +211,6 @@ Drama and family genres have lower median revenues but a wide range of outcomes,
 ## Now that the context is set, pick one of the top 5 genre at the beginning of this page and discover how to make the best movie!
 <div style="width: 100%;display: flex; justify-content: center;">
 <a href = "https://www.imdb.com/title/tt6450804/">
-  <img src="/assets/img/memefinintro.jpeg" alt="Choosing" style="width: 400px; height: 400px; border-radius: 10px;">
+  <img src="/assets/img/memefinintro.jpeg" alt="Choosing" style="width: 400px; height: 200px; border-radius: 10px;">
 </a>
 </div>
