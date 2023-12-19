@@ -90,19 +90,23 @@ The XGBoost model's, from the boosted tree algorithms family, analysis of the Dr
 <div style="width: 110%;display: flex; justify-content: center;">
   {% include featureimportance_Drama.html %}
 </div>
+This underscores the importance of gender balance within the cast. It suggests that having a diverse ensemble of male and female actors is conducive to the success of drama films. A producer should consider assembling a cast that reflects this gender diversity to appeal to a wider audience.
 <div style="width: 110%;display: flex; justify-content: center;">
   {% include actorimportance_Drama.html %}
 </div>
+The second plot indicates that the age and the number of roles actors have played contribute to a movie's success. This implies a preference for experienced actors, likely because they bring depth and nuance to complex drama narratives. Producers should prioritize casting experienced actors who can deliver powerful performances.
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationdirectorage_Drama.html %}
 </div>
+The third plot shows a notable trend where directors of a certain age range, particularly in the middle of their careers, tend to produce more successful drama films. This could be due to a mix of experience, contemporary relevance, and maturity in storytelling. Producers may want to collaborate with directors who are in this age sweet spot.
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationnummovie_Drama.html %}
 </div>
+This reveals that directors with too few or too many movies in their filmography don't correlate with the highest success rates. It appears there's an optimal range of experience that equates to success in drama. Producers should seek directors with a substantial body of work that indicates experience but also suggests they're still evolving and not overexposed.
 
 
 ## Conclusion
-Summarize the key takeaways for filmmakers aspiring to create impactful drama movies, combining financial success with critical acclaim.
+
     
   
 
