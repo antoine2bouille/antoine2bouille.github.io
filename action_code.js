@@ -151,6 +151,38 @@ function openUrl(url) {
   window.open(url, '_blank'); // '_blank' opens the URL in a new tab
 }
 
+var nconsts = {
+  "actor_1": "",
+  "actor_2": "",
+  "actor_4": "",
+  "actor_5": "",
+  "actor_7": "",
+  "actor_8": "",
+  "actor_10": "",
+  "actor_11": "",
+  "director_1": "",
+  "director_2": ""
+}
+
+var names = {
+  'genre': 'Action/Adventure',
+  'director': 'Director',
+  'role_1': 'Role 1',
+  'role_2': 'Role 2',
+  'role_3': 'Role 3',
+  'role_4': 'Role 4',
+  "actor_1": "",
+  "actor_2": "",
+  "actor_4": "",
+  "actor_5": "",
+  "actor_7": "",
+  "actor_8": "",
+  "actor_10": "",
+  "actor_11": "",
+  "director_1": "",
+  "director_2": ""
+}
+
 // Attaching click event listeners to 'actor' nodes
 var actorNodes = ['actor_1', 'actor_2', 'actor_4', 'actor_5', 'actor_7', 'actor_8', 'actor_10', 'actor_11', 'director_1', 'director_2'];
 actorNodes.forEach(function(actorId) {
