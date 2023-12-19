@@ -93,17 +93,21 @@ The XGBoost model's, from the boosted tree algorithms family, analysis of the Ho
 <div style="width: 110%;display: flex; justify-content: center;">
   {% include featureimportance_Horror.html %}
 </div>
+The mix of actors' genders and their ages matters. To make a scary movie that works, it's smart to have both men and women actors of different ages. This way, the film can have characters that all kinds of viewers can relate to or get scared by.
 <div style="width: 110%;display: flex; justify-content: center;">
   {% include actorimportance_Horror.html %}
 </div>
+Both how old a director is and how many movies they've made are key to making a good horror film. It's probably best to choose a director who's been around but isn't too stuck in their ways, someone who can still surprise and scare the audience.
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationdirectorage_Horror.html %}
 </div>
+There's not a strong link between a director's age and how well a horror movie does. This suggests that age isn't everything; what's more important is the director's skill at building suspense and fear.
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationnummovie_Horror.html %}
 </div>
+Making a lot of movies doesn't mean a director's next horror film will be a hit. It might be better to go with a director who has made a few good ones, suggesting they know how to deliver the chills and thrills that fans love.
 
 ## Conclusion
-
+To create a horror movie that really scares and excites viewers, focus on a story that brings out the spooky and the strange. Pick actors of different ages and both men and women to make the characters more real and relatable. It's a good idea to work with directors who have some experience making movies but are still full of fresh, scary ideas. Showing your movie in places like the US, Japan, and Mexico and using languages like English and Spanish can help it become popular all over the world. Keep the movie around 119 minutes long so it's just the right length to keep the scares coming without dragging on. With the right mix of story, cast, and director, your horror movie can be the one that everyone is talking about.
     
   
