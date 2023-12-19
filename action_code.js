@@ -152,11 +152,11 @@ function openUrl(url) {
 }
 
 var nconsts = {
-  "actor_1": "",
-  "actor_2": "",
-  "actor_4": "",
-  "actor_5": "",
-  "actor_7": "",
+  "actor_1": "nm0000138",
+  "actor_2": "nm0000093",
+  "actor_4": "nm0000656",
+  "actor_5": "nm0000704",
+  "actor_7": "nm0000138",
   "actor_8": "",
   "actor_10": "",
   "actor_11": "",
@@ -171,16 +171,16 @@ var names = {
   'role_2': 'Role 2',
   'role_3': 'Role 3',
   'role_4': 'Role 4',
-  "actor_1": "",
-  "actor_2": "",
-  "actor_4": "",
-  "actor_5": "",
-  "actor_7": "",
-  "actor_8": "",
-  "actor_10": "",
-  "actor_11": "",
-  "director_1": "",
-  "director_2": ""
+  "actor_1": "Landry Bender",
+  "actor_2": "Joey King",
+  "actor_4": "Meryl Streep",
+  "actor_5": "Debra Winger",
+  "actor_7": "Leonardo DiCaprio",
+  "actor_8": "Christian Bale",
+  "actor_10": "Nick Robinson",
+  "actor_11": "K.J. Apa",
+  "director_1": "John Irvin",
+  "director_2": "Philip Noyce"
 }
 
 // Attaching click event listeners to 'actor' nodes
@@ -235,7 +235,7 @@ cy.getElementById('genre').on('click', function() {
 
 cy.on('mouseover', 'node', function(event){
   var node = event.target;
-  var nodeName = node.id();
+  var nodeName = names[node.id()];
   var nodePosition = node.renderedPosition();
 
   // create a div element to use as a tooltip
