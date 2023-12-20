@@ -58,6 +58,10 @@ This plot shows histograms for movie runtime categorized by award status: Awarde
 
 **Movie runtime for awarded movies and not awarded movies**
 
+<div style="width: 100%;display: flex; justify-content: center;">
+  <img src="/assets/img/violin_plot.jpeg" alt="Violin" style="width: 699px; height: 473px; border-radius: 10px;">
+</div>
+
 This violin and box plot combination displays the distribution of movie runtimes, differentiating between movies that were not awarded and those that were. The 'Not Awarded' category has a wide and flat distribution, suggesting a high variability in runtimes, whereas the 'Awarded' category shows a more peaked and narrow distribution, implying a concentration around a specific runtime. The box plot within the violin plot for awarded movies shows a median value that is higher than the not awarded, which might imply that movies with longer runtimes tend to win awards, but the spread is less, suggesting a tighter criterion for runtime among awarded films. The notable number of outliers in the 'Not Awarded' category could indicate that there is less consistency in the success of movies with very short or very long runtimes in this group.
 
 ### What is the relation between being awarded and revenue?
