@@ -184,8 +184,8 @@ bla bla bla
             <th style="border: 1px solid black; padding: 8px;">p-value</th>
         </tr>
         <tr style="border: 1px solid black;">
-            <td style="border: 1px solid black; padding: 8px;">3.5209</td>
-            <td style="border: 1px solid black; padding: 8px;">0.00046</td>
+            <td style="border: 1px solid black; padding: 8px;">10.1754</td>
+            <td style="border: 1px solid black; padding: 8px;">1.2792</td>
         </tr>
     </table>
 </div>
@@ -201,34 +201,33 @@ blablabla
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">Drama</td>
-            <td style="border: 1px solid black; padding: 8px;">4.1644</td>
-            <td style="border: 1px solid black; padding: 8px;">3.8874 e-5</td>
+            <td style="border: 1px solid black; padding: 8px;">8.2264</td>
+            <td style="border: 1px solid black; padding: 8px;">3.4129 e-15</td>
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">Family</td>
-            <td style="border: 1px solid black; padding: 8px;">0.2926</td>
-            <td style="border: 1px solid black; padding: 8px;">0.7702</td>
+            <td style="border: 1px solid black; padding: 8px;">5.3712</td>
+            <td style="border: 1px solid black; padding: 8px;">3.0938 e-7</td>
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">Action & Adenture</td>
-            <td style="border: 1px solid black; padding: 8px;">3.1385</td>
-            <td style="border: 1px solid black; padding: 8px;">0.0024</td>
+            <td style="border: 1px solid black; padding: 8px;">3.2693</td>
+            <td style="border: 1px solid black; padding: 8px;">0.0016</td>
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">Science-fiction</td>
-            <td style="border: 1px solid black; padding: 8px;">-0.3015</td>
-            <td style="border: 1px solid black; padding: 8px;">0.7657</td>
+            <td style="border: 1px solid black; padding: 8px;">0.3961</td>
+            <td style="border: 1px solid black; padding: 8px;">0.6964</td>
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">Horror</td>
-            <td style="border: 1px solid black; padding: 8px;">1.1604</td>
-            <td style="border: 1px solid black; padding: 8px;">0.2793</td>
+            <td style="border: 1px solid black; padding: 8px;">1.7496</td>
+            <td style="border: 1px solid black; padding: 8px;">0.0598</td>
         </tr>
     </table>
 </div>
 
 bla bla bla
-
 
 
 
