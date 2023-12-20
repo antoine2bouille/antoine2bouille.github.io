@@ -43,7 +43,7 @@ Before delving right into genre-specific analyses in the film industry, we need 
 
 **Distribution of movie ratings across genres**
 <div style="width: 100%;display: flex; justify-content: center;">
-  {% include distribution_of_movie_ratings_across_genres.html %}
+  {% include distribution1.html %}
 </div>
 
 The distribution plots illustrate that movie ratings across genres tend to follow a slightly left-skewed Gaussian or normal distribution, with most ratings clustering around the mean. Each genre shows a distinct peak, with 'Drama' having the most substantial number of movies. The spread of the distributions indicates the variability of ratings within each genre. We can see that Drama, Comedy, Thriller/Action and Romance are the top genres in the world! We will detail for each of those 5 genres what are the main things to implement in a movie in order to make it successful. 
