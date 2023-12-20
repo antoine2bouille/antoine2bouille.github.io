@@ -13,7 +13,7 @@ full-width-genres: true
 
 <div align="center">
   
-### Introduction
+Introduction
 </div>
 
 
