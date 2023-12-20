@@ -76,7 +76,6 @@ We harnessed the power of linear regression in order to find the optimal runtime
         </tr>
     </table>
 </div>
-## Basic graphs
 
 ## Optimized casting
 
