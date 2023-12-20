@@ -46,7 +46,7 @@ Before delving right into genre-specific analyses in the film industry, we need 
   {% include distribution_of_movie_ratings_across_genres.html %}
 </div>
 
-The distribution plots illustrate that movie ratings across genres tend to follow a Gaussian or normal distribution, with most ratings clustering around the mean. Each genre shows a distinct peak, with 'Drama' having the most substantial number of movies. The spread of the distributions indicates the variability of ratings within each genre. We can see that Drama, Comedy, Thriller/Action and Romance are the top genres in the world! We will detail for each of those 5 genres what are the main things to implement in a movie in order to make it successful. 
+The distribution plots illustrate that movie ratings across genres tend to follow a slightly left-skewed Gaussian or normal distribution, with most ratings clustering around the mean. Each genre shows a distinct peak, with 'Drama' having the most substantial number of movies. The spread of the distributions indicates the variability of ratings within each genre. We can see that Drama, Comedy, Thriller/Action and Romance are the top genres in the world! We will detail for each of those 5 genres what are the main things to implement in a movie in order to make it successful. 
 
 ### Which relation between the screentime and the opportunity to win an award?
 
@@ -54,7 +54,7 @@ The distribution plots illustrate that movie ratings across genres tend to follo
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include distribution_of_movie_runtime_by_award_status.html %}
 </div>
-This plot shows histograms for movie runtime categorized by award status: Awarded Movies, Nominated Movies, and Non-awarded and Non-nominated Movies. Awarded movies tend to have a distribution centered around a lower runtime than nominated movies, suggesting that movies with shorter runtimes might have a higher chance of winning awards. Non-awarded and Non-nominated movies show a broad distribution, indicating a wide range of runtimes, with the majority leaning towards shorter runtimes. This category's histogram is significantly taller, suggesting it contains a much larger number of movies compared to the other two. A potential insight here could be that while both awarded and nominated movies tend to have a certain runtime, simply having a runtime within that range does not guarantee recognition.
+This plot shows histograms for movie runtime categorized by award status: Awarded Movies, Nominated Movies, and Non-awarded and Non-nominated Movies. Awarded and nominated movies tend to have a distribution centered around a higher runtime than movies that are not, suggesting that movies with higher runtimes might have a higher chance of winning awards. Non-awarded and Non-nominated movies show a broad distribution, indicating a wide range of runtimes, with the majority leaning towards shorter runtimes. This category's histogram is significantly taller, suggesting it contains a much larger number of movies compared to the other two. A potential insight here could be that while both awarded and nominated movies tend to have a certain runtime, simply having a runtime within that range does not guarantee recognition.
 
 **Movie runtime for awarded movies and not awarded movies**
 
@@ -84,19 +84,15 @@ Similar to the box office revenue graph, this shows the frequency distribution o
 The plot displays density functions for the profit of movies, also categorized by their award status. The x-axis is on a logarithmic scale, indicating a wide range of profits. We can see distinct peaks for each category. Awarded movies have the highest peak, followed by nominated movies, which suggests that, on average, awarded movies tend to be more profitable. Non-awarded and Non-nominated movies have a flatter distribution with a peak at a lower profit level, indicating that these movies, while varied, generally earn less than their awarded or nominated counterparts. The log scale indicates that there are movies with very high profits, but they are less frequent, as seen by the density curves approaching the tail end.
 
 
-**Causal analysis**
-
-As we know, we have some confounders in the studies we will perform, so we are going to remove these biases with a more advanced model using propensity scores:
+Of course, this approach is naïve, since it includes confounders. We're going to remove these biases with a more advanced model using propensity scores:
 
 `similarity(x, y) = 1 - | propensity_score(x) - propensity_score(y) |`
 
+
 This function captures the difference in scores like a distance, but since the distance defined like that would always be between 0 and 1, subtracting it from 1 would be a meaningful measure to use for similarity.
 
- Next, we will perform a pairwise matching between films with the same propensity score. 
-
- The first causal analysis investigate on the relation between being awarded and the profit, then we will investigate between the ratings and the profit.
-
- ***Award vs Profit***
+ Next, we perform a pairwise matching between films with the same propensity score. Each pair should contain one award-winning film and one non-award-winning film.
+We obtain the following histogram:
 
 
 METTRE GRAPH 1 CAUSAL
@@ -162,10 +158,6 @@ The last step is to check whether we get the same result for all 5 film genres. 
 This is interesting, because it would seem that this correlation between rewards received and profits only affects certain genders. Indeed, we can see that for films in the Drama and Action-Adventure genres, the result is significant (due to p-value very low), whereas for films in the Family, Science-fiction and Horror genres, the result is inconclusive because the p-value is too high.
 
 
- ***Ratings vs Profit***
-
-
- BENOIT METS TON BLABLA
 
 **Scatterplot of movie runtime vs profit**
 
