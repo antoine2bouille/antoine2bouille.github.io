@@ -84,15 +84,19 @@ Similar to the box office revenue graph, this shows the frequency distribution o
 The plot displays density functions for the profit of movies, also categorized by their award status. The x-axis is on a logarithmic scale, indicating a wide range of profits. We can see distinct peaks for each category. Awarded movies have the highest peak, followed by nominated movies, which suggests that, on average, awarded movies tend to be more profitable. Non-awarded and Non-nominated movies have a flatter distribution with a peak at a lower profit level, indicating that these movies, while varied, generally earn less than their awarded or nominated counterparts. The log scale indicates that there are movies with very high profits, but they are less frequent, as seen by the density curves approaching the tail end.
 
 
-Of course, this approach is naïve, since it includes confounders. We're going to remove these biases with a more advanced model using propensity scores:
+**Causal analysis**
+
+As we know, we have some confounders in the studies we will perform, so we are going to remove these biases with a more advanced model using propensity scores:
 
 `similarity(x, y) = 1 - | propensity_score(x) - propensity_score(y) |`
 
-
 This function captures the difference in scores like a distance, but since the distance defined like that would always be between 0 and 1, subtracting it from 1 would be a meaningful measure to use for similarity.
 
- Next, we perform a pairwise matching between films with the same propensity score. Each pair should contain one award-winning film and one non-award-winning film.
-We obtain the following histogram:
+ Next, we will perform a pairwise matching between films with the same propensity score. 
+
+ The first causal analysis investigate on the relation between being awarded and the profit, then we will investigate between the ratings and the profit.
+
+ ***Award vs Profit***
 
 
 METTRE GRAPH 1 CAUSAL
@@ -158,6 +162,10 @@ The last step is to check whether we get the same result for all 5 film genres. 
 This is interesting, because it would seem that this correlation between rewards received and profits only affects certain genders. Indeed, we can see that for films in the Drama and Action-Adventure genres, the result is significant (due to p-value very low), whereas for films in the Family, Science-fiction and Horror genres, the result is inconclusive because the p-value is too high.
 
 
+ ***Ratings vs Profit***
+
+
+ BENOIT METS TON BLABLA
 
 **Scatterplot of movie runtime vs profit**
 
