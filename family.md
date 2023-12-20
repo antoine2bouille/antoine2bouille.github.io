@@ -33,6 +33,8 @@ The map highlights key markets for film release, with the United States, Canada,
 
 The language importance bar chart indicates that Hindi, English, Malayalam, Malay, and Japanese are influential for drama films' success. A producer should consider these languages for localizing the film, potentially increasing its accessibility and appeal to a broad international audience.
 
+## Measuring metrics
+
 The use of a CatBoost machine learning model is useful to discover what factors contribute to a film's success. The model is trained to understand the impact of various features like language and country of release on a movie's performance. Once trained, the model's feature importance reveals that certain languages and countries are more predictive of success. The model is trained over 5012 data points and tested over 1253 data points.
 
 <div style="margin:auto; width:50%;">
@@ -91,7 +93,9 @@ We harnessed the power of a machine learning algorithm to identify the most suit
   <a href="/family_cast.html"><img src="/assets/img/casting.png" alt="cast" style="width:512px;height:512px;border-radius: 30px;"></a>
 </div>
 
-The XGBoost model's, from the boosted tree algorithms family, analysis of the Family genre is valuable for its genre-specific insights and feature importance analysis. These aspects make it a useful tool for informed decision-making in film production, particularly in casting and understanding key success factors in the Family genre.
+### Cast optimization breakdown
+
+The XGBoost model's analysis of the Family genre is valuable for its genre-specific insights and feature importance analysis. These aspects make it a useful tool for informed decision-making in film production, particularly in casting and understanding key success factors in the Family genre.
 
 <div style="width: 110%;display: flex; justify-content: center;">
   {% include featureimportance_Family.html %}
