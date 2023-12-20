@@ -97,10 +97,7 @@ The XGBoost model's analysis of the Horror genre is valuable for its genre-speci
   {% include featureimportance_Horror.html %}
 </div>
 The mix of actors' genders and their ages matters. To make a scary movie that works, it's smart to have both men and women actors of different ages. This way, the film can have characters that all kinds of viewers can relate to or get scared by.
-<div style="width: 110%;display: flex; justify-content: center;">
-  {% include actorimportance_Horror.html %}
-</div>
-Both how old a director is and how many movies they've made are key to making a good horror film. It's probably best to choose a director who's been around but isn't too stuck in their ways, someone who can still surprise and scare the audience.
+
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationdirectorage_Horror.html %}
 </div>

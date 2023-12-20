@@ -102,11 +102,6 @@ The XGBoost model's analysis of the Family genre is valuable for its genre-speci
 </div>
 The bar chart suggests that the gender and age of actors in specific roles significantly impact the success of family films. A producer should take into account not only the diversity in casting but also the ideal age range for actors to fit the roles authentically, which can resonate with the family-oriented audience.
 
-<div style="width: 110%;display: flex; justify-content: center;">
-  {% include actorimportance_Family.html %}
-</div>
-This indicates that a director's age and the number of movies they have directed are pivotal factors. For a producer, this means partnering with directors who have a proven track record and sufficient experience, as these factors are associated with successful outcomes in family dramas.
-
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationdirectorage_Family.html %}
 </div>

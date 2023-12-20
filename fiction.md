@@ -101,10 +101,6 @@ The XGBoost model's analysis of the Fiction genre is valuable for its genre-spec
 </div>
 It suggest that gender diversity within the cast holds notable importance in the success of fiction films. For producers, this implies a strategic need to focus on casting decisions that ensure a balanced representation of genders across the main roles to resonate with a diverse audience.
 
-<div style="width: 110%;display: flex; justify-content: center;">
-  {% include actorimportance_Fiction.html %}
-</div>
-This indicates that the age of actors and the number of roles they have are meaningful for a film's success. It implies that blending young energy with the experienced actors, and giving them a substantial number of roles, can contribute positively to the film's performance.
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationdirectorage_Fiction.html %}
 </div>

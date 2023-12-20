@@ -99,11 +99,6 @@ The XGBoost model's analysis of the Action/Adventure genre is valuable for its g
 </div>
 It indicates the significance of actors' age and gender in action/adventure films. It suggests a trend where the age of the actors, particularly for certain key roles, as well as a balanced representation of genders, can be critical to a film's success.
 
-<div style="width: 110%;display: flex; justify-content: center;">
-  {% include actorimportance_actionadventure.html %}
-</div>
-
-It may highlight the importance of a director's age and the number of films they have directed. This information would be valuable for a producer in selecting a director, as it suggests that those with moderate experience, neither novices nor overly seasoned, tend to be associated with successful action/adventure films.
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationdirectorage_actionadventure.html %}
 </div>

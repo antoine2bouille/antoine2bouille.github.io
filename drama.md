@@ -95,10 +95,7 @@ The XGBoost model's analysis of the Drama genre is valuable for its genre-specif
   {% include featureimportance_Drama.html %}
 </div>
 This underscores the importance of gender balance within the cast. It suggests that having a diverse ensemble of male and female actors is conducive to the success of drama films. A producer should consider assembling a cast that reflects this gender diversity to appeal to a wider audience.
-<div style="width: 110%;display: flex; justify-content: center;">
-  {% include actorimportance_Drama.html %}
-</div>
-The second plot indicates that the age and the number of roles actors have played contribute to a movie's success. This implies a preference for experienced actors, likely because they bring depth and nuance to complex drama narratives. Producers should prioritize casting experienced actors who can deliver powerful performances.
+
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include relationdirectorage_Drama.html %}
 </div>
