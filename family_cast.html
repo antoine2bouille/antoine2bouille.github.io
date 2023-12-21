@@ -35,9 +35,11 @@ body {
     color: #13E2DC; /* Sets the font color to gold */
     font-size: 30px; /* Sets the font size to 30 pixels */
     text-align: center; /* Centers the text */
-    position: fixed; /* Fixed position */
+    position: fixed; /* Fixed position, stays in place during scrolling */
     bottom: 70px;    /* Distance from bottom */
-    right: 70px;     /* Distance from right */
+    left: 0;         /* Aligns left edge to the left side of the viewport */
+    right: 0;        /* Aligns right edge to the right side of the viewport */
+    margin: auto;    /* Centers the element between the left and right edges */
     font-family: 'Limelight', sans-serif;
     }
 .tooltip {
