@@ -226,10 +226,10 @@ The t-value of 10.1754 with a p-value of 1.2792e-15 indicates an extremely stron
     </table>
 </div>
 
-Drama films have a very strong correlation between awards and IMDb ratings, as indicated by a high t-value of 8.2264 and a practically negligible p-value of 3.4129e-15. This suggests that in the Drama genre, there is a significant relationship between the reception of awards and higher ratings.
-Family films show a significant result, with a t-value of 5.3712 and a p-value of 3.0938e-7, implying that awarded Family films tend to have higher IMDb ratings.
-Action & Adventure films also demonstrate a significant positive association between awards and ratings, with a t-value of 3.2693 and a p-value of 0.0016, although the strength of this relationship is weaker than in Drama and Family films.
-Science-fiction films, however, do not show a significant correlation between awards and IMDb ratings, with a t-value of 0.3961 and a high p-value of 0.6964, indicating that other factors might be at play in determining the success or acclaim of films in this genre.
+Drama films have a very strong correlation between awards and IMDb ratings, as indicated by a high t-value of 8.2264 and a practically negligible p-value of 3.4129e-15. This suggests that in the Drama genre, there is a significant relationship between the reception of awards and higher ratings.\
+Family films show a significant result, with a t-value of 5.3712 and a p-value of 3.0938e-7, implying that awarded Family films tend to have higher IMDb ratings.\
+Action & Adventure films also demonstrate a significant positive association between awards and ratings, with a t-value of 3.2693 and a p-value of 0.0016, although the strength of this relationship is weaker than in Drama and Family films.\
+Science-fiction films, however, do not show a significant correlation between awards and IMDb ratings, with a t-value of 0.3961 and a high p-value of 0.6964, indicating that other factors might be at play in determining the success or acclaim of films in this genre.\
 Horror films are on the edge of significance, with a t-value of 1.7496 and a p-value of 0.0598. This p-value is just above the conventional threshold for significance (0.05), suggesting a possible but not definitive link between awards and ratings for Horror films.
 
 
