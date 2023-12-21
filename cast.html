@@ -35,9 +35,11 @@ body {
     color: #CF9E11; /* Sets the font color to gold */
     font-size: 30px; /* Sets the font size to 30 pixels */
     text-align: center; /* Centers the text */
-    position: fixed; /* Fixed position */
+    position: fixed; /* Fixed position, stays in place during scrolling */
     bottom: 70px;    /* Distance from bottom */
-    right: 70px;     /* Distance from right */
+    left: 0;         /* Aligns left edge to the left side of the viewport */
+    right: 0;        /* Aligns right edge to the right side of the viewport */
+    margin: auto;    /* Centers the element between the left and right edges */
     font-family: 'Limelight', sans-serif;
     }
 .tooltip {
@@ -77,6 +79,8 @@ body {
 </head>
 <body>
 <div id="title">The perfect cast for a Drama movie</div>
+<div id="subtitle">Click on a node to reveal its children</div>
+
 <div id="cy">
 </div>
 <!-- Load application code at the end to ensure DOM is loaded -->
@@ -84,5 +88,6 @@ body {
 <a href="/drama" id="backLink">
     <img src="/assets/img/go_back_transparent.png" alt="Back" style="width:90px;height:90px;">
 </a>
+<div id="bottomtext">Click on any cast member for more information !</div>
 </body>
 </html>
