@@ -114,6 +114,6 @@ A similar scatter plot likely illustrates the relationship between the number of
 
 
 ## Conclusion
-A good family movie tells stories about family life and values, often using familiar settings like schools and important events. It should mix heartwarming scenes, challenges, and celebrations to show family strength. To reach many people, it's best to release these movies in places like the US, Canada, Italy, Japan, the Czech Republic, and India. They should be in languages like English, Hindi, Malayalam, Malay, and Japanese. When choosing actors, it's important to have both men and women of different ages. Directors should be experienced but still open to new ideas. The ideal movie length is around 120 minutes. These components help to craf family films with the potential for high audience appeal and commercial success.
+A good family movie tells stories about family life and values, often using familiar settings like schools and important events. It should mix heartwarming scenes, challenges, and celebrations to show family strength. To reach many people, it's best to release these movies in places like the US, Canada, Italy, Japan, the Czech Republic, and India. They should be in languages like English, Hindi, Malayalam, Malay, and Japanese. When choosing actors, it's important to have both men and women of different ages. Directors should be experienced but still open to new ideas. The ideal movie length is around 120 minutes. These components help to craft family films with the potential for high audience appeal and commercial success.
     
   
