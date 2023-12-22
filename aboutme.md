@@ -22,3 +22,8 @@ The team members are :
 ### Our story
 
 We like creating interfaces, talking about finance and doing nerdy jokes :)
+
+
+<div style="width: 100%;display: flex; justify-content: center; margin-top: 60px;">
+  <img src="/assets/img/cadre.png" alt="Logo" style="width: 708px; height: 600px;">
+</div> 
