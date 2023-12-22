@@ -26,11 +26,11 @@ Futuristic environments and superior technologies drive inventive storytelling i
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include map_Fiction.html %}
 </div>
-The map highlights key markets for film release, with the United States, Mexico, South Africa, Japan, Spain, and Soviet Union marked as top countries. As a producer, targeting these countries for your drama film's release could enhance its commercial success due to their significant market potential for the genre.
+The map highlights key markets for film release, with the United States, Mexico, South Africa, Japan, Spain, and Soviet Union marked as top countries. As a producer, targeting these countries for your science-fiction film's release could enhance its commercial success due to their significant market potential for the genre.
 <div style="width: 100%;display: flex; justify-content: center;">
   {% include maplangue_Fiction.html %}
 </div>
-The language importance bar chart indicates that Japanese, English, Russian, Italian, and Hindi are influential for drama films' success. A producer should consider these languages for localizing the film, potentially increasing its accessibility and appeal to a broad international audience.
+The language importance bar chart indicates that Japanese, English, Russian, Italian, and Hindi are influential for SF movies' success. A producer should consider these languages for localizing the film, potentially increasing its accessibility and appeal to a broad international audience.
 
 The use of a CatBoost machine learning model is useful to discover what factors contribute to a film's success. The model is trained to understand the impact of various features like language and country of release on a movie's performance. Once trained, the model's feature importance reveals that certain languages and countries are more predictive of success.
 
@@ -76,7 +76,7 @@ Machine learning, and specifically the use of CatBoost here, is crucial because 
     </table>
 </div>
 
-We harnessed the power of linear regression in order to find the optimal runtime.
+We used a power of linear regression in order to find the optimal runtime.
 <div style="width:50%; margin-left: auto; margin-right: auto;">
     <table style="width:100%; border: 1px solid black; border-collapse: collapse;">
         <tr style="border: 1px solid black;">
