@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Sources and other ideas
-subtitle: Why you'd want to go on a date with me
 ---
 
 # Sources and further steps
