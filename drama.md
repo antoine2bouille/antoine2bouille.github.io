@@ -63,10 +63,11 @@ Machine learning, and specifically the use of CatBoost here, is crucial because 
             <td style="border: 1px solid black; padding: 8px;">RMSE (Root Mean Squared Error)</td>
             <td style="border: 1px solid black; padding: 8px;">0.382490</td>
         </tr>
+        <!--
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">R² (R-squared)</td>
             <td style="border: 1px solid black; padding: 8px;">0.011954</td>
-        </tr>
+        </tr>-->
     </table>
 </div>
 We harnessed the power of linear regression in order to find the optimal runtime.
