@@ -5,6 +5,8 @@ title: Sources and other ideas
 
 # Sources and further steps
 
+The dataset on which we based this datastory is the [CMU Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas/).
+
 ## Additional datasets
 
 As we are computing a success rating for each movie, we need to take into account the reviews, the inflation adjusted profits to be able to compare the profitability of each movie and the Oscars nominations and awards. This data is not available in the provided datasets. We use these additional datasets in order to get them:
