@@ -184,7 +184,7 @@ On this graph, we can see a clear distribution of average IMDb ratings for films
         </tr>
         <tr style="border: 1px solid black;">
             <td style="border: 1px solid black; padding: 8px;">10.1754</td>
-            <td style="border: 1px solid black; padding: 8px;">1.2792</td>
+            <td style="border: 1px solid black; padding: 8px;">1.2792 e-15</td>
         </tr>
     </table>
 </div>
